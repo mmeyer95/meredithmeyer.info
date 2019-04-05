@@ -1,10 +1,16 @@
 ---
 layout: post
-title: You're up and running!
+title: Portfolio
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+### Lane Finding
+## Skills: Computer Vision, OpenCV, Python, Jupyter Notebooks
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+### Street Sign Classification
+## Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Autonomous Driving
+## Skills: Collecting training data, Deep Learning, CNNs, C++
+
+### Kalman Filters
+## Skills: Kalman Filters, Sensor Fusion, C++
