@@ -3,14 +3,14 @@ layout: post
 title: Portfolio
 ---
 
-### Lane Finding
+# Lane Finding
 ## Skills: Computer Vision, OpenCV, Python, Jupyter Notebooks
 
-### Street Sign Classification
+# Street Sign Classification
 ## Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
-### Autonomous Driving
+# Autonomous Driving
 ## Skills: Collecting training data, Deep Learning, CNNs, C++
 
-### Kalman Filters
+# Kalman Filters
 ## Skills: Kalman Filters, Sensor Fusion, C++
