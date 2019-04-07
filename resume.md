@@ -3,7 +3,8 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-# __Education__
+***
+# Education
 
 M.Eng, Mechanical Engineering, University of California Berkeley, 2018
 <br>B.S., Bioengineering, University of Pittsburgh, 2017
