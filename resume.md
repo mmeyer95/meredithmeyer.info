@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume
+title: __Resume__
 permalink: /resume/
 ---
 # Education
