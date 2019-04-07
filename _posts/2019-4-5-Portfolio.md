@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: Portfolio
+permalink: /Portfolio/
 ---
 
 ## Lane Finding
