@@ -1,9 +1,9 @@
 ---
 layout: page
-title: __Resume__
+title: Resume
 permalink: /resume/
 ---
-# Education
+# __Education__
 
 M.Eng, Mechanical Engineering, University of California Berkeley, 2018
 <br>B.S., Bioengineering, University of Pittsburgh, 2017
@@ -13,10 +13,10 @@ M.Eng, Mechanical Engineering, University of California Berkeley, 2018
 Certified Motion Control Professional (CMCP) - Motion Control and Motor Association
 <br>Self Driving Car Engineer, Nanodegree - Udacity
 
-# Technical Skills
+# __Technical Skills__
 
-# Experience
+# __Experience__
 
-# Community Work
+# __Community Work__
 
 
