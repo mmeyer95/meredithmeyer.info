@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Voila: Interactive Health Device
+title: Voila - Interactive Health Device
 permalink: /Voila/
 ---
 
