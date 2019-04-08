@@ -33,7 +33,7 @@ Get [details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://g
 ## Street Sign Classification
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
-Get [details](https://meredithmeyer.info/signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
+Get [details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
