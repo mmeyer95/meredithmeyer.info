@@ -13,7 +13,7 @@ Using Canny edge detection for a grayscale image, followed by a Hough Line Trans
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Get [details](https://meredithmeyer.com/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
+Get [details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 This project focused on more advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. For real video footage captured from a vehicle's dash, I applied steps of:
 1. Undistorting each image
@@ -28,11 +28,17 @@ This project focused on more advanced image manipulation in order to calculate t
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/k46y8LXDKw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
+Get [details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
+
 ## Street Sign Classification
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
+Get [details](https://meredithmeyer.info/signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
+
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
+
+Get [details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
 ## Voila: Fitness Data Hub
 #### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
@@ -44,6 +50,8 @@ Our dream for this project was to make the technology seem as amiable as possibl
 The final device was created through myriad cycles of 3D printing pieces. The hardware includes a Pico Pro microcontroller and screen, accelerometer, LED strip, motion sensor, and Bluetooth Low Energy (BLE) connection. Refer to the video below to see how this technology works, and what it's all about.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+Get [details](https://meredithmeyer.info/voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
 
 ## WorkOutimal: Smart Exercise Bike
 #### Skills: Automation, Arduino, Hardware, Sensing, Project Management
@@ -58,6 +66,8 @@ The assembly is shown (left). In order to measure the pedal velocity, I created 
 
 View a teaser for this project:
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+Get [details](https://meredithmeyer.info/workout) or visit [GitHub](https://github.com/mmeyer95/WorkOutimal).
 
 ## Text Entry
 #### Skills: Java, Android Studio, Laser Cutting, Soldering
