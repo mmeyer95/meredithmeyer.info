@@ -9,41 +9,43 @@ Below is a high-level overview of many of the projects I have worked on recently
 ## Lane Finding
 #### Skills: Computer Vision, OpenCV, Python, Camera Calibration, Video Processing, Jupyter Notebooks
 
-Using Canny edge detection for a grayscale image, followed by a Hough Line Transform, I was able to identify lane lines on images captured from a vehicle dash.
+I was able to identify lane lines on video captured from a vehicle dash:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Lane Finding: Get [details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 ## Autonomous Driving
-#### Skills: Collecting training data, Deep Learning, CNNs, C++
+#### Skills: Collecting training data, Behavioral Cloning, Deep Learning, CNNs, C++
+
+I trained a car simulator to drive on its own using behavioral cloning:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/k46y8LXDKw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Get [details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
+Autonomous Driving: Get [details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
 ## Street Sign Classification
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
-Get [details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
+I classified street signs from individual images using a convolutional neural network.
+
+Street Sign Classification: Get [details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
 
-Get [details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
+I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
+
+Kalman Filters: Get [details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
 ## Voila: Fitness Data Hub
 #### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
 
-The motivation for this project path came from a shared group interest in personal health and happiness. As busy individuals with many smartphone apps and notifications, we all envisioned a way to make health tracking both simpler and more insightful.
-
-Our dream for this project was to make the technology seem as amiable as possible. One of the ways we sought to do this is by using smooth edges- circles rather than rectangles- in the overall design. We were limited in budget and supplies, so we adapted a rectangular screen to become multiple circular screens.
-
-The final device was created through myriad cycles of 3D printing pieces. The hardware includes a Pico Pro microcontroller and screen, accelerometer, LED strip, motion sensor, and Bluetooth Low Energy (BLE) connection. Refer to the video below to see how this technology works, and what it's all about.
+Voila is an interactive device using tactile inputs which focuses on the collection and optimization of health choices.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Get [details](https://meredithmeyer.info/voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
+Voila: Get [details](https://meredithmeyer.info/voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
 
 ## WorkOutimal: Smart Exercise Bike
 #### Skills: Automation, Arduino, Hardware, Sensing, Project Management
