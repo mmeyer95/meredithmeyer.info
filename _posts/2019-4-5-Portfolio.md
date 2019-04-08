@@ -11,7 +11,7 @@ Below is a high-level overview of many of the projects I have worked on recently
 
 Using Canny edge detection for a grayscale image, followed by a Hough Line Transform, I was able to identify lane lines on images captured from a vehicle dash.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 This project focused on more advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. For real video footage captured from a vehicle's dash, I applied steps of:
 1. Undistorting each image
@@ -39,7 +39,7 @@ Our dream for this project was to make the technology seem as amiable as possibl
 
 The final device was created through myriad cycles of 3D printing pieces. The hardware includes a Pico Pro microcontroller and screen, accelerometer, LED strip, motion sensor, and Bluetooth Low Energy (BLE) connection. Refer to the video below to see how this technology works, and what it's all about.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ## WorkOutimal: Smart Exercise Bike
 #### Skills: Automation, Arduino, Hardware, Sensing, Project Management
@@ -53,10 +53,10 @@ As part of the hardware duo, my responsibility is to actually create a working p
 The assembly is shown (left). In order to measure the pedal velocity, I created a low-fidelity encoder using a single LED and photoresistor. The gaps in the wheel change the reading on the photoresistor, which I then used to calculate the rotations of the flywheel, and then the rotations of the pedals. Both the velocity measurement system and linear actuator are controlled using an Arduino Uno.
 
 View a teaser for this project:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ## Text Entry
 #### Skills: Java, Android Studio, Laser Cutting, Soldering
 
 As an introduction to Android, I created a low fidelity prototype of a text entry device, including software.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T63Gp9oZcBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/T63Gp9oZcBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
