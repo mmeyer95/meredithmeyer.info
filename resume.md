@@ -24,7 +24,7 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 * Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video
 * Utilize Deep Learning techniques to categorize road signs in images using Python
 * Train a simulator to drive a car autonomously with a Keras Neural Network in Python
-* Execute an Extended Kalman Filter using C++ and Sensor Fusion 
+* Execute an Extended Kalman Filter using C++ and Sensor Fusion
 ### Applications Engineer, Moog Animatics                                 
 #### August 2018- Present
 * Execute SmartMotor motion control applications through text-based programming
@@ -65,7 +65,7 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 #### June 2017- December 2018
 * Instruct diverse classes to achieve higher scores on college and graduate admissions exams
 * Provide personalized advice and support in study techniques for individual students
-### Personnel Chair, Chi Omega Fraternity				                            
+### Personnel Chair, Chi Omega Fraternity
 #### November 2015- January 2017
 * Oversee conduct, rules, and regulatory procedures within the Chapter
 * Coordinate activities and functions for personal and professional development
