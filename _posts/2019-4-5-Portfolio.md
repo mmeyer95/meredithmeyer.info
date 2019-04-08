@@ -11,6 +11,8 @@ Below is a high-level overview of many of the project I have worked on recently.
 
 Using Canny edge detection for a grayscale image, followed by a Hough Line Transform, I was able to identify lane lines on images captured from a vehicle dash.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Advanced Lane Finding
 #### Skills: Computer Vision, OpenCV, Python, Camera Calibration, Video Processing, Jupyter Notebooks
 
@@ -30,3 +32,18 @@ This project focused on more advanced image manipulation in order to calculate t
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
+
+## Voila: Fitness Data Hub
+#### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## WorkOutimal: Smart Exercise Bike
+#### Skills: Automation, Arduino, Sensing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Text Entry
+#### Skills: Java, Android Studio, Laser Cutting, Soldering
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T63Gp9oZcBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
