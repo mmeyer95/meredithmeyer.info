@@ -21,11 +21,13 @@ This project focused on more advanced image manipulation in order to calculate t
 5. Calculating lane curvature and offset
 6. Visualizing the lanes and curvature information on top of the video
 
-## Street Sign Classification
-#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
-
 ## Autonomous Driving
 #### Skills: Collecting training data, Deep Learning, CNNs, C++
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/k46y8LXDKw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+## Street Sign Classification
+#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
