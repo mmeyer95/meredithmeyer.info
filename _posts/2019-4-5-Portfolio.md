@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /
 ---
 ***
-Below is a high-level overview of many of the projects I have worked on recently. For more information, visit my GitHub profile, or contact me directly (see footer).
+Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the 'details' links, visit my GitHub profile, or contact me directly (see footer).
 
 ## Lane Finding
 #### Skills: Computer Vision, OpenCV, Python, Camera Calibration, Video Processing, Jupyter Notebooks
@@ -13,15 +13,7 @@ Using Canny edge detection for a grayscale image, followed by a Hough Line Trans
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Get [details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
-
-This project focused on more advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. For real video footage captured from a vehicle's dash, I applied steps of:
-1. Undistorting each image
-2. Applying a binary threshold
-3. Compute a perspective transform (to birds' eye view)
-4. Detecting the lane lines
-5. Calculating lane curvature and offset
-6. Visualizing the lanes and curvature information on top of the video
+Lane Finding: Get [details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 ## Autonomous Driving
 #### Skills: Collecting training data, Deep Learning, CNNs, C++
