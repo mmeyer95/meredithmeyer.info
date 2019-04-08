@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WorkOutimal: Smart Exercise Bike
+title: WorkOutimal - Smart Exercise Bike
 permalink: /Workout/
 ---
 
