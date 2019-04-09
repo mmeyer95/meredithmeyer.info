@@ -38,7 +38,7 @@ Street Sign Classification: [See the details](https://meredithmeyer.info/Signs) 
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
 
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></center>
+<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a></center>
 
 Kalman Filters: [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
