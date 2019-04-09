@@ -29,12 +29,16 @@ Autonomous Driving: [See the details](https://meredithmeyer.info/autonomous) or 
 
 I classified street signs from individual images using a convolutional neural network.
 
+![](https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg) ![](https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg)
+
 Street Sign Classification: [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
+
+<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></center>
 
 Kalman Filters: [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
