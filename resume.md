@@ -53,13 +53,13 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 # Community & Personal Development
 
 ### Animal Rescue League, Dog jogger volunteer and foster parent	           		  
-   #### April 2015 - July 2017
+#### April 2015 - July 2017
 ### Senior Pet and Animal Rescue (SPAAR), Foster parent and fundraiser            	 
-   #### May 2016– July 2017
+#### May 2016– July 2017
 ### Silicon Valley Animal Control Authority (SVACA), Volunteer						                                  
-   #### October 2018- Present
+#### October 2018- Present
 ### Los Angeles Marathon			       						                                          
-   #### March 18, 2018
+#### March 18, 2018
    * Self-trained for 4 months to run first 26.2-mile race 
    * Finished in the top 5% of all women with a time of 3:52
 
