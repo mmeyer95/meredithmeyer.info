@@ -4,11 +4,11 @@ title: Behavioral Cloning in Autonomous Driving
 permalink: /autonomous/
 ---
 
-By collecting data of my own driving habits, creating and training a Convolutional Neural Network (CNN), the simulation was able to learn the proper steering angles to drive on its own. Data too the form of "dash cam" pictures: images of the track from the perspective of what would be the car's dash: 
+By collecting data of my own driving habits, creating and training a Convolutional Neural Network (CNN), the simulation was able to learn the proper steering angles to drive on its own. Data took the form of "dash cam" pictures: images of the track from the perspective of what would be the car's dashboard: 
 
 <center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47522991632/in/dateposted-public/" title="center_2016_12_01_13_32_44_569"><img src="https://live.staticflickr.com/7819/47522991632_6d23a38c0e.jpg" width="320" height="160" alt="center_2016_12_01_13_32_44_569"></a></center>
 
-However, even with low loss in my network training, the car was not able to stay on the road when driving autonomously. This was likely because when I was controlling the car, there were no sharp turns and therefore no large steering angles. There was also no way for the network to properly react to an image of the car going off the road, because that was not part of the data it trained on. To supplement the data, I did some "recovery laps": collecting data of the car moving back to the center of the lane after heading off. The training images looked like this:
+However, even with low loss in my neural network training (<3%), the car was not able to stay on the road when driving autonomously. This was likely because when I was controlling the car, there were no sharp turns, and therefore no large steering angles. There was also no way for the network to properly react to seeing the car going off the road, because that was not part of the data it trained on. To supplement the data, I did some "recovery laps": collecting data of the car moving back to the center of the lane after heading off. The training images looked like this:
 
 <center>
 <table>
