@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /
 ---
 ***
-Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the `details` links, visit my GitHub profile, or contact me directly (see footer).
+Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the *details* links, visit my GitHub profile, or contact me directly (see footer).
 
 ## Lane Finding
 #### Skills: Computer Vision, OpenCV, Python, Camera Calibration, Video Processing, Jupyter Notebooks
@@ -13,25 +13,25 @@ I was able to identify lane lines on video captured from a vehicle dash:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Lane Finding: [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
+    [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 ## Autonomous Driving
 #### Skills: Collecting training data, Behavioral Cloning, Deep Learning, CNNs, C++
 
-I trained a car simulator to drive on its own using behavioral cloning:
+I trained a car simulation to drive on its own using behavioral cloning:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/k46y8LXDKw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Autonomous Driving: [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
+    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
 ## Street Sign Classification
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
 
 I classified street signs from individual images using a convolutional neural network.
 
-![](https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg) ![](https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg)
+<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46838171334/in/dateposted-public/" title="before_traffic-sign"><img src="https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg" width="255" height="252" alt="before_traffic-sign"> <a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/32619451697/in/dateposted-public/" title="after_traffic_sign"></a><img src="https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg" width="255" height="252" alt="after_traffic_sign"></a></center>
 
-Street Sign Classification: [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
+    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++
@@ -40,25 +40,25 @@ I tracked and predicted the motion of a bicycle relative to a vehicle with simul
 
 <center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a></center>
 
-Kalman Filters: [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
+    [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
 ## Voila: Fitness Data Hub
 #### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
 
-Voila is an interactive device using tactile inputs which focuses on the collection and optimization of health choices.
+I worked on "Voila", is an interactive device using tactile inputs which focuses on the collection and optimization of health choices.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Voila: [See the details](https://meredithmeyer.info/Voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
+    [See the details](https://meredithmeyer.info/Voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
 
 ## WorkOutimal: Smart Exercise Bike
 #### Skills: Automation, Arduino, Hardware, Sensing, Project Management
 
-WorkOutimal is a stationary exercise bicycle that is able to guide the rider through an efficient workout.
+I developed "WorkOutimal", a stationary exercise bicycle that is able to guide the rider through an efficient workout.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-WorkOutimal: [See the details](https://meredithmeyer.info/Workout) or visit [GitHub](https://github.com/mmeyer95/WorkOutimal).
+    [See the details](https://meredithmeyer.info/Workout) or visit [GitHub](https://github.com/mmeyer95/WorkOutimal).
 
 ## Text Entry
 #### Skills: Java, Android Studio, Laser Cutting, Soldering
