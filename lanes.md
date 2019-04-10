@@ -23,7 +23,11 @@ The vectors found using 'cv2.calibrateCamera' are subsequently used to undistort
 
 1. Undistorting each image uses information from the camera calibration, and is as simple as 'undist = cv2.undistort(image, mtx, dist, None, mtx)'
 
-2. Thresholding is the most important part of this process. The output of this step must make the lane lines as clearly visible as possible. Through experimentation as well as knowledge of the technique, I decided to use a Sobel gradient threshold in the x direction, in combination with a threshold of the S channel in HLS color space.
+2. Thresholding is the most important part of this process. The output of this step must make the lane lines as clearly visible as possible. Through experimentation as well as knowledge of the technique, I decided to use a Sobel gradient threshold in the x direction, in combination with a threshold of the S channel in HLS color space. The pixels where both of these thresholds are reached have the highest likelihood of containing the lane lines. The binary image output looks as such:
+
+<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46645486985/in/dateposted-public/" title="binary threshold2"><img src="https://live.staticflickr.com/7865/46645486985_71e24c7a19.jpg" width="378" height="223" alt="binary threshold2"></a></center>
+
+You can see that some other pixels, including what looks like a neighboring car, were identified. The next step only looks at a certain location of the image, so these fale-positive will not be a problem. 
 
 3. The goal of the perspective transform is to map straight lines to a rectangle in an image. Through trial and error on a control image, which yielded the following transformation:
 
