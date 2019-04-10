@@ -31,16 +31,19 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 * Execute SmartMotor motion control applications through text-based programming
 * Train distributors on operation and features of SmartMotors using proprietary software
 * Support customers in troubleshooting and product selection
+
 ### Project Manager, Smart Exercise Bike (Capstone Project)			      
 #### December 2017- May 2018
 * Selected appropriate hardware to fabricate a mechanical system
 * Created and programmed an encoder using Arduino
 * Designed and conducted tests to verify the electromechanical device
+
 ### Electromechanical Engineer, “Voila” (Course Project)			      	   
 #### October- December 2017
 * Utilized 3D printing and laser cutting to rapidly iterate prototypes
 * Tested and programmed sensors in Python & Arduino for a device to react to tactile inputs
 * Solved manufacturing problems to create a final polished device
+
 ### MATLAB Programmer, Human Movement and Balance Lab			 	              
 #### June 2015- May 2016
 * Conducted data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
@@ -50,15 +53,15 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 # Community & Personal Development
 
 ### Animal Rescue League, Dog jogger volunteer and foster parent	           		  
-#### April 2015 - July 2017
+    #### April 2015 - July 2017
 ### Senior Pet and Animal Rescue (SPAAR), Foster parent and fundraiser            	 
-#### May 2016– July 2017
+    #### May 2016– July 2017
 ### Silicon Valley Animal Control Authority (SVACA), Volunteer						                                  
-#### October 2018- Present
+    #### October 2018- Present
 ### Los Angeles Marathon			       						                                          
-#### March 18, 2018
-* Self-trained for 4 months to run first 26.2-mile race 
-* Finished in the top 5% of all women with a time of 3:52
+    #### March 18, 2018
+    * Self-trained for 4 months to run first 26.2-mile race 
+    * Finished in the top 5% of all women with a time of 3:52
 
 # Leadership
 
