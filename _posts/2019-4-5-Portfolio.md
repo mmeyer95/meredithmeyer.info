@@ -13,7 +13,7 @@ I was able to identify lane lines on video captured from a vehicle dash:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-    [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
+   [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 ## Autonomous Driving
 #### Skills: Collecting training data, Behavioral Cloning, Deep Learning, CNNs, C++
@@ -22,7 +22,7 @@ I trained a car simulation to drive on its own using behavioral cloning:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/k46y8LXDKw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
+   [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
 ## Street Sign Classification
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
@@ -31,16 +31,16 @@ I classified street signs from individual images using a convolutional neural ne
 
 <center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46838171334/in/dateposted-public/" title="before_traffic-sign"><img src="https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg" width="255" height="252" alt="before_traffic-sign"> <a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/32619451697/in/dateposted-public/" title="after_traffic_sign"></a><img src="https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg" width="255" height="252" alt="after_traffic_sign"></a></center>
 
-    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
+   [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
-#### Skills: Kalman Filters, Sensor Fusion, C++
+#### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
 
 <center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a></center>
 
-    [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
+   [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
 ## Voila: Fitness Data Hub
 #### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
@@ -49,7 +49,7 @@ I worked on "Voila", is an interactive device using tactile inputs which focuses
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-    [See the details](https://meredithmeyer.info/Voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
+   [See the details](https://meredithmeyer.info/Voila) or visit [GitHub](https://github.com/mmeyer95/Voila).
 
 ## WorkOutimal: Smart Exercise Bike
 #### Skills: Automation, Arduino, Hardware, Sensing, Project Management
@@ -58,7 +58,7 @@ I developed "WorkOutimal", a stationary exercise bicycle that is able to guide t
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-    [See the details](https://meredithmeyer.info/Workout) or visit [GitHub](https://github.com/mmeyer95/WorkOutimal).
+   [See the details](https://meredithmeyer.info/Workout) or visit [GitHub](https://github.com/mmeyer95/WorkOutimal).
 
 ## Text Entry
 #### Skills: Java, Android Studio, Laser Cutting, Soldering
