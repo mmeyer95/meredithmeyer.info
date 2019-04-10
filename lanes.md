@@ -21,8 +21,10 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
 4. Detecting the lane lines
 5. Calculating lane curvature and offset
 6. Visualizing the lanes and curvature information on top of the video
+<p>
 
-1. Undistorting each image uses information from the camera calibration, and is as simple as `undist = cv2.undistort(image, mtx, dist, None, mtx)`
+1. Undistorting each image uses information from the camera calibration, and is as simple as `undist = cv2.undistort(image, mtx, dist, None, mtx)` 
+
 
 2. Thresholding is the most important part of this process. The output of this step must make the lane lines as clearly visible as possible. Through experimentation as well as knowledge of the technique, I decided to use a Sobel gradient threshold in the x direction, in combination with a threshold of the S channel in HLS color space. The pixels where both of these thresholds are reached have the highest likelihood of containing the lane lines. The binary image output looks as such:
 
