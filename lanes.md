@@ -6,12 +6,13 @@ permalink: /Lanes/
 This project focused on advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. It required initial camera calibration, and then a series of processing steps for each frame.
 
 Camera calibration essentially requires calculating the transformation required to undistort an image. This is easily done with a picture of a checkboard, and with helpful functions from OpenCV for python:
-'''new_image = cv2.drawChessboardCorners(calibration_image, (nx,ny), corners, ret)
+```new_image = cv2.drawChessboardCorners(calibration_image, (nx,ny), corners, ret)
 
-ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1],None, None)'''
+ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1],None, None)
+```
 
-The vectors found using 'cv2.calibrateCamera' are subsequently used to undistort images. During camera calibration, the corners of the chessboard are found:
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46645486945/in/dateposted-public/" title="checkerboard b4"><img src="https://live.staticflickr.com/7922/46645486945_9594ff6bc2.jpg" width="378" height="223" alt="checkerboard b4"></a><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/33684284938/in/dateposted-public/" title="corners"><img src="https://live.staticflickr.com/7862/33684284938_a6c97706ae.jpg" width="378" height="223" alt="corners"></a></script></center>
+The vectors found using `cv2.calibrateCamera` are subsequently used to undistort images. During camera calibration, the corners of the chessboard are found:
+<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46645486945/in/dateposted-public/" title="checkerboard b4"><img src="https://live.staticflickr.com/7922/46645486945_9594ff6bc2.jpg" width="378" height="223" alt="checkerboard b4"></a><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/33684284938/in/dateposted-public/" title="corners"><img src="https://live.staticflickr.com/7862/33684284938_a6c97706ae.jpg" width="378" height="223" alt="corners"></a></center>
 
 <br>For real video footage captured from a vehicle's dash, I applied steps of:
 1. Undistorting each image
@@ -21,7 +22,7 @@ The vectors found using 'cv2.calibrateCamera' are subsequently used to undistort
 5. Calculating lane curvature and offset
 6. Visualizing the lanes and curvature information on top of the video
 
-1. Undistorting each image uses information from the camera calibration, and is as simple as 'undist = cv2.undistort(image, mtx, dist, None, mtx)'
+1. Undistorting each image uses information from the camera calibration, and is as simple as `undist = cv2.undistort(image, mtx, dist, None, mtx)`
 
 2. Thresholding is the most important part of this process. The output of this step must make the lane lines as clearly visible as possible. Through experimentation as well as knowledge of the technique, I decided to use a Sobel gradient threshold in the x direction, in combination with a threshold of the S channel in HLS color space. The pixels where both of these thresholds are reached have the highest likelihood of containing the lane lines. The binary image output looks as such:
 
