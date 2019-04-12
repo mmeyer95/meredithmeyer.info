@@ -5,7 +5,7 @@ permalink: /Lanes/
 ---
 This project focused on advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. It required initial camera calibration, and then a series of processing steps for each frame.
 
-Camera calibration essentially requires calculating the transformation required to undistort an image. This is easily done with a picture of a checkboard, and with helpful functions from OpenCV for python:
+Camera calibration essentially requires calculating the transformation required to undistort an image. This is easily done with a picture of a checkboard, and with helpful functions from OpenCV for python:   
 ```new_image = cv2.drawChessboardCorners(calibration_image, (nx,ny), corners, ret)
 
 ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1],None, None)
