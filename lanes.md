@@ -3,7 +3,7 @@ layout: page
 title: Lane Finding
 permalink: /Lanes/
 ---
-Test add
+Test add 2
 
 This project focused on advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. It required initial camera calibration, and then a series of processing steps for each frame.
 
@@ -22,7 +22,7 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
 4. Detecting the lane lines
 5. Calculating lane curvature and offset
 6. Visualizing the lanes and curvature information on top of the video
-<p>
+<br>
 
 1. Undistorting each image uses information from the camera calibration, and is as simple as `undist = cv2.undistort(image, mtx, dist, None, mtx)` 
 
@@ -51,6 +51,6 @@ You can see there is a large radius of curvature for a road with only a small am
 View the full video here:
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-[GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding) <br>
+<a href="https://github.com/mmeyer95/Advanced-Lane-Finding">GitHub</a><br>
 Contact me (below) for more information.
 
