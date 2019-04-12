@@ -16,7 +16,7 @@ I was able to identify lane lines on video captured from a vehicle dash:
    [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
 ## Autonomous Driving
-#### Skills: Collecting training data, Behavioral Cloning, Deep Learning, CNNs, C++
+#### Skills: Behavioral Cloning, Deep Learning, Transfer Learning, CNNs, C++, Keras
 
 I trained a car simulation to drive on its own using behavioral cloning:
 
@@ -25,7 +25,7 @@ I trained a car simulation to drive on its own using behavioral cloning:
    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
 ## Street Sign Classification
-#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks 
+#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks, Tensor Flow, LeNet 
 
 I classified street signs from individual images using a convolutional neural network.
 
@@ -34,7 +34,7 @@ I classified street signs from individual images using a convolutional neural ne
    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
 ## Kalman Filters
-#### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR
+#### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR, Gaussian Distriutions, Matrices
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
 
