@@ -6,13 +6,13 @@ permalink: /resume/
 ***
 # Education
 
-M.Eng, Mechanical Engineering, University of California Berkeley, 2018
-<br>B.S., Bioengineering, University of Pittsburgh, 2017
+M.Eng, Mechanical Engineering, University of California Berkeley (2018)
+<br>B.S., Bioengineering, University of Pittsburgh (2017)
 
 ### Certificates
 
-Certified Motion Control Professional (CMCP) - Motion Control and Motor Association
-<br>Self Driving Car Engineer, Nanodegree - Udacity
+Certified Motion Control Professional, Motion Control and Motor Association (2019)
+<br>Self Driving Car Engineer, Nanodegree at Udacity (June 2019, Expected)
 
 # Technical Skills
 3D Printing, Arduino, Android Studio, C++, Computer Vision, Deep Learning, Machine Learning, MATLAB, Motion Control, OpenCV, Project Management, Python, Rapid Prototyping, SolidWorks (CAD), TensorFlow
@@ -74,5 +74,14 @@ Certified Motion Control Professional (CMCP) - Motion Control and Motor Associat
 #### November 2015- January 2017
 * Oversee conduct, rules, and regulatory procedures within the Chapter
 * Coordinate activities and functions for personal and professional development
+
+# Honors and Awards
+
+### First Place: Bioengineering Design Project, Swanson School of Engineering (2017)
+### Tau Beta Pi: Top 10% of graduating class, Swanson School of Engineering (2015)
+### Second Place: Stilettos to Steel Toes Essay Contest, Schlumberger (2015)
+### University Honors Scholarship, University of Pittsburgh (2013)
+### Engineering Scholarship, Swanson School of Engineering (2013)
+
 
 
