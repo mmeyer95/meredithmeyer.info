@@ -7,7 +7,7 @@ permalink: /
 Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the *details* links, visit my GitHub profile, or contact me directly (see footer).
 
 ## Lane Finding
-#### Skills: Computer Vision, OpenCV, Python, Camera Calibration, Video Processing, Jupyter Notebooks
+#### Skills: Computer Vision, OpenCV, Python, Numpy, Camera Calibration, Video Processing, Jupyter Notebooks
 
 I was able to identify lane lines on video captured from a vehicle dash:
 
@@ -25,7 +25,7 @@ I trained a car simulation to drive on its own using behavioral cloning:
    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
 ## Street Sign Classification
-#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Jupyter Notebooks, Tensor Flow, LeNet 
+#### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Tensor Flow, Numpy, Jupyter Notebooks, LeNet 
 
 I classified street signs from individual images using a convolutional neural network.
 
