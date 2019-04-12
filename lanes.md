@@ -3,7 +3,7 @@ layout: page
 title: Lane Finding
 permalink: /Lanes/
 ---
-Test add 2
+Test add 3
 
 This project focused on advanced image manipulation in order to calculate the lane curvature and vehicle positioning within the lane. It required initial camera calibration, and then a series of processing steps for each frame.
 
@@ -23,19 +23,20 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
 5. Calculating lane curvature and offset
 6. Visualizing the lanes and curvature information on top of the video
 <br>
+<br>
 
 1. Undistorting each image uses information from the camera calibration, and is as simple as `undist = cv2.undistort(image, mtx, dist, None, mtx)` 
 
 
 2. Thresholding is the most important part of this process. The output of this step must make the lane lines as clearly visible as possible. Through experimentation as well as knowledge of the technique, I decided to use a Sobel gradient threshold in the x direction, in combination with a threshold of the S channel in HLS color space. The pixels where both of these thresholds are reached have the highest likelihood of containing the lane lines. The binary image output looks as such:
 
-<center><img src="https://live.staticflickr.com/7865/46645486985_71e24c7a19.jpg" width="378" height="223" alt="binary threshold2"></center>
+    <center><img src="https://live.staticflickr.com/7865/46645486985_71e24c7a19.jpg" width="378" height="223" alt="binary threshold2"></center>
 
-You can see that some other pixels, including what looks like a neighboring car, were identified. The next step only looks at a certain location of the image, so these fale-positive will not be a problem.
+    You can see that some other pixels, including what looks like a neighboring car, were identified. The next step only looks at a certain location of the image, so these fale-positive will not be a problem.
 
 
 3. The goal of the perspective transform is to map straight lines to a rectangle in an image. Through trial and error on a control image, which yielded the following transformation:
-<center><img src="https://live.staticflickr.com/7892/46837284414_53f6ebd159.jpg" width="378" height="223" alt="persp xform"><img src="https://live.staticflickr.com/7833/33684284668_5c05c6d0e9.jpg" width="378" height="223" alt="persp xform2"></center>
+    <center><img src="https://live.staticflickr.com/7892/46837284414_53f6ebd159.jpg" width="378" height="223" alt="persp xform"><img src="https://live.staticflickr.com/7833/33684284668_5c05c6d0e9.jpg" width="378" height="223" alt="persp xform2"></center>
 
 
 4. With the perspective transform of the binary threshold, it was then time to detect the position of the lane lines.
