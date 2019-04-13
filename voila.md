@@ -12,6 +12,6 @@ The final device was created through myriad cycles of 3D printing pieces. The ha
 
 Again, here is the promotional video for Voila:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/73sUKSZ9bQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Contact me (below) for more information.
