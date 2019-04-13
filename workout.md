@@ -16,6 +16,6 @@ Again, here is the promotional video for WorkOutimal:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/F1LDj81z75A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Contact me (below) for more information.
-<br>
 [Back to Portfolio](https://meredithmeyer.info/)
+<br>
+<center>Contact me (below) for more information.</center>
