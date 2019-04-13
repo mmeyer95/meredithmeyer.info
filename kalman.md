@@ -20,7 +20,7 @@ and the prediction error, **y,** must instead be calculated as:
 
 Also, since radar comes in polar coordinates, it is not linear. Kalman Filters demand linearity. To account for the non-linearity, we use a Jacobian matrix for **H** in the measurement step for radar:
 
-<center><img src="https://live.staticflickr.com/7898/47543136112_812c2a8614_m.jpg" width="240" height="84" alt="Jacobian"></center>
+<center><img src="https://live.staticflickr.com/7898/47543136112_812c2a8614_m.jpg" width="480" height="168" alt="Jacobian"></center>
 
 A simulator was used to visualize the data points and print root-mean-square error (RMSE). The simulator shows the locations of the readings from Lidar (blue), from Radar (red), and the predicted position incorporating both data types (green).
 
