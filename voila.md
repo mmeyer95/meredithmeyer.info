@@ -7,7 +7,7 @@ permalink: /Voila/
 
 The motivation for this project path came from a shared group interest in personal health and happiness. As busy individuals with many smartphone apps and notifications, we all envisioned a way to make health tracking both simpler and more insightful.
 
-<center><img src="https://static.wixstatic.com/media/4d6d5c_0407d674d479441d8efb9d4bcd87e015~mv2.png/v1/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01/4d6d5c_0407d674d479441d8efb9d4bcd87e015~mv2.webp></center>
+<center><img src="https://static.wixstatic.com/media/4d6d5c_0407d674d479441d8efb9d4bcd87e015~mv2.png/v1/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01/4d6d5c_0407d674d479441d8efb9d4bcd87e015~mv2.webp"></center>
   
 Our dream for this project was to make the technology seem as amiable as possible. One of the ways we sought to do this is by using smooth edges- circles rather than rectangles- in the overall design. We were limited in budget and supplies, so we adapted a rectangular screen to become multiple circular screens.
 
@@ -15,7 +15,7 @@ Our dream for this project was to make the technology seem as amiable as possibl
   
 The final device was created through myriad cycles of 3D printing pieces. The hardware includes a Pico Pro microcontroller and screen, accelerometer, LED strip, motion sensor, and Bluetooth Low Energy (BLE) connection. 
 
-<center><img src="https://static.wixstatic.com/media/4d6d5c_0a4908db50e44ce9a96e0f487117587c~mv2.jpg/v1/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01/4d6d5c_0a4908db50e44ce9a96e0f487117587c~mv2.webp></center>
+<center><img src="https://static.wixstatic.com/media/4d6d5c_0a4908db50e44ce9a96e0f487117587c~mv2.jpg/v1/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01/4d6d5c_0a4908db50e44ce9a96e0f487117587c~mv2.webp"></center>
 
 Again, here is the promotional video for Voila:
 
