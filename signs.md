@@ -9,7 +9,7 @@ The goal of this project was to train a CNN to identify images of German street 
 
 The CNN I used to train this model is based on the [LeNet-5 CNN](http://yann.lecun.com/exdb/publis/pdf/lecun-bengio-95a.pdf):
 
-<center>![LeNet-5](https://cdn-images-1.medium.com/max/2400/1*1TI1aGBZ4dybR6__DI9dzA.png)</center>
+<center><img src="https://cdn-images-1.medium.com/max/2400/1*1TI1aGBZ4dybR6__DI9dzA.png"></center>
 
 The model consists of multiple convolutions interspersed with subsamplings (pooling), finished with a few fully-connected layers. I incorporated dropout to minimize over-fitting. The final layers of my model were:
 <center><blockquote>Convolutional Layer [5,5,1,6]<br>
