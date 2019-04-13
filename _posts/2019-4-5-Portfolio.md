@@ -38,7 +38,7 @@ I classified street signs from individual images using a convolutional neural ne
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
 
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/dateposted-public/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
    [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
 
