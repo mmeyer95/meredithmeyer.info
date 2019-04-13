@@ -37,4 +37,4 @@ This model trained with validation accuracy of 93.5%.
 [GitHub Repo](https://github.com/mmeyer95/Traffic-Sign-Classifier) <br>
 [Back to Portfolio](https://meredithmeyer.info/)
 <br>
-Contact me (below) for additional information.
+<center>Contact me (below) for additional information.</center>
