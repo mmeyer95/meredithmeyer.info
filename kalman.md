@@ -10,7 +10,7 @@ The project involved implementation of Kalman Filter equations in C++ code. The 
 
 Where **x** is the state matrix, **P** is the process covariance matrix, **Q** is the measurement noise matrix, **F** is the state transiton matrix, and **H** is the measurement matrix. Kalman Filters are cyclic; A measurement step and prediction step are performed for each data point.
 
-Since radar measurements are in polar coordinates, the state vector must be converted to polar coordinates in order to compare the current state to a new radar measurement:
+Since radar measurements are in polar coordinates, the state vector {X,Y,Vx,Vy} must be converted to polar coordinates in order to compare the current state to a new radar measurement:
 
 <center><img src="https://live.staticflickr.com/7817/46680354765_b6c4b7939f.jpg"></center>
 
@@ -30,7 +30,8 @@ With my implemented filter, I was able to smoothly measure and track the locatio
 
 <center><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></center>
 
-The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data. See the filter in action:
+RMSE for the first data set was as low as {0.97.0.91,0.45,0.45}.<br>
+The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data, with improved RMSEs of {0.078,0.087,0.44, 0.43}. See the filter in action:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
