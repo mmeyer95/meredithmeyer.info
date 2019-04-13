@@ -29,7 +29,7 @@ I trained a car simulation to drive on its own using behavioral cloning:
 
 I classified street signs from individual images using a convolutional neural network.
 
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/46838171334/in/dateposted-public/" title="before_traffic-sign"><img src="https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg" width="255" height="252" alt="before_traffic-sign"> <a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/32619451697/in/dateposted-public/" title="after_traffic_sign"></a><img src="https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg" width="255" height="252" alt="after_traffic_sign"></a></center>
+<center><img src="https://cdn-images-1.medium.com/max/1600/1*bJSyDaR7-XsBLreG0Y0CSQ.png"></center>
 
    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
