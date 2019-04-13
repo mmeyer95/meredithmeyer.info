@@ -12,18 +12,18 @@ The CNN I used to train this model is based on the [LeNet-5 CNN](http://yann.lec
 <center>![LeNet-5](https://cdn-images-1.medium.com/max/2400/1*1TI1aGBZ4dybR6__DI9dzA.png)</center>
 
 The model consists of multiple convolutions interspersed with subsamplings (pooling), finished with a few fully-connected layers. I incorporated dropout to minimize over-fitting. The final layers of my model were:
-<center><blockquote>Convolutional Layer [5,5,1,6]
-Relu Activation
-Max Pooling
-Convolutional Layer [5, 5, 6, 16]
-Relu Activation
-Max Pooling
-Flattening
-Fully Connected Layer (400 to 120)
-Relu Activation
-40% Dropout
-Fully Connected Layer (120 to 84)
-Relu Activation
+<center><blockquote>Convolutional Layer [5,5,1,6]<br>
+Relu Activation<br>
+Max Pooling<br>
+Convolutional Layer [5, 5, 6, 16]<br>
+Relu Activation<br>
+Max Pooling<br>
+Flattening<br>
+Fully Connected Layer (400 to 120)<br>
+Relu Activation<br>
+40% Dropout<br>
+Fully Connected Layer (120 to 84)<br>
+Relu Activation<br>
 Fully Connected Layer (84 to 43)</blockquote></center>
 
 The last fully connected layer of size 43 maps to the 43 street sign types. After one-hot encoding the logits, each sample image is identified as one of the 43 street signs, based on the maximum probability match.
