@@ -7,6 +7,10 @@ permalink: /Signs/
 The goal of this project was to train a CNN to identify images of German street signs from the LeNet data set. It is important to note that the data is not even distributed among categories. See the chart below: 
 <center><img src="https://live.staticflickr.com/7865/46852291614_179d3074db.jpg" width="500" height="304" alt="124"></center>
 
+Prior to passing images through the neural network, each was converted to grayscale and normalized by: (pixel-128)/128. 
+
+<center><img src="https://live.staticflickr.com/7861/46838171334_d32c965b6b.jpg" width="255" height="252" alt="before_traffic-sign"> <img src="https://live.staticflickr.com/7917/32619451697_5bf93b90b0.jpg" width="255" height="252" alt="after_traffic_sign"></center>
+
 The CNN I used to train this model is based on the [LeNet-5 CNN](http://yann.lecun.com/exdb/publis/pdf/lecun-bengio-95a.pdf):
 
 <center><img src="https://cdn-images-1.medium.com/max/2400/1*1TI1aGBZ4dybR6__DI9dzA.png"></center>
