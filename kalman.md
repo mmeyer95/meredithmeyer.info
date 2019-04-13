@@ -30,7 +30,7 @@ With my implemented filter, I was able to smoothly measure and track the locatio
 
 <center><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></center>
 
-RMSE for the first data set was as low as {0.97.0.91,0.45,0.45}.<br>
+RMSE for the first data set was as low as {0.097.0.091,0.45,0.45}.<br>
 The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data, with improved RMSEs of {0.078,0.087,0.44, 0.43}. See the filter in action:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
