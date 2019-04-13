@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /
 ---
 ***
-Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the *details* links, visit my GitHub profile, or contact me directly (see footer).
+Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the **details** links, visit my [GitHub profile](https://github.com/mmeyer95/), or [contact me directly](mailto:meredith_meyer@berkeley.edu).
 
 ## Lane Finding
 #### Skills: Computer Vision, OpenCV, Python, Numpy, Camera Calibration, Video Processing, Jupyter Notebooks
