@@ -16,7 +16,7 @@ Since radar measurements are in polar coordinates, the state vector must be conv
 
 and the prediction error, **y,** must instead be calculated as:
 
-<center><img src=""></center>
+<center><img src="https://live.staticflickr.com/7920/46680566005_3043f35646_m.jpg"></center>
 
 Also, since radar comes in polar coordinates, it is not linear. Kalman Filters demand linearity. To account for the non-linearity, we use a Jacobian matrix for **H** in the measurement step for radar.
 
@@ -32,7 +32,7 @@ The filter also works on another data set, which begins travel in the opposite d
 
 <center><img src=""></center>
 
-[GitHub Repo]()
+[GitHub Repo](https://github.com/mmeyer95/KalmanFilters)
 <br> Contact me (below) for more information.
 
 
