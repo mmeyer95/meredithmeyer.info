@@ -30,9 +30,9 @@ With my implemented filter, I was able to smoothly measure and track the locatio
 
 <center><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></center>
 
-The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data:
+The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data. See the filter in action:
 
-<center></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 [GitHub Repo](https://github.com/mmeyer95/KalmanFilters)<br>
 [Back to Portfolio](https://meredithmeyer.info/)
