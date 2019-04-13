@@ -18,7 +18,9 @@ and the prediction error, **y,** must instead be calculated as:
 
 <center><img src="https://live.staticflickr.com/7920/46680566005_3043f35646_m.jpg"></center>
 
-Also, since radar comes in polar coordinates, it is not linear. Kalman Filters demand linearity. To account for the non-linearity, we use a Jacobian matrix for **H** in the measurement step for radar.
+Also, since radar comes in polar coordinates, it is not linear. Kalman Filters demand linearity. To account for the non-linearity, we use a Jacobian matrix for **H** in the measurement step for radar:
+
+<center><img src="https://live.staticflickr.com/7898/47543136112_812c2a8614_m.jpg"></center>
 
 A simulator was used to visualize the data points and print root-mean-square error (RMSE). The simulator shows the locations of the readings from Lidar (blue), from Radar (red), and the predicted position incorporating both data types (green).
 
@@ -30,7 +32,7 @@ With my implemented filter, I was able to smoothly measure and track the locatio
 
 The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data:
 
-<center><img src="https://live.staticflickr.com/7898/47543136112_812c2a8614_m.jpg"></center>
+<center></center>
 
 [GitHub Repo](https://github.com/mmeyer95/KalmanFilters)
 <br> Contact me (below) for more information.
