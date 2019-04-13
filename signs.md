@@ -30,5 +30,5 @@ The last fully connected layer of size 43 maps to the 43 street sign types. Afte
 
 This model trained with validation accuracy of 93.5%.
 
-[GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier)<br>
-Contact me below for additional information.
+[GitHub Repo](https://github.com/mmeyer95/Traffic-Sign-Classifier)<br>
+Contact me (below) for additional information.
