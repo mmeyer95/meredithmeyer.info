@@ -35,7 +35,7 @@ The filter also works on another data set, which begins travel in the opposite d
 <center></center>
 
 [GitHub Repo](https://github.com/mmeyer95/KalmanFilters)
-<br> Contact me (below) for more information.
-<br>
+
 [Back to Portfolio](https://meredithmeyer.info/)
 
+<br> Contact me (below) for more information.
