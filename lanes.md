@@ -39,8 +39,8 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
 View the full video here:
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/b9hYK5LCyrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-<a href="https://github.com/mmeyer95/Advanced-Lane-Finding">GitHub Repo</a><br>
-Contact me (below) for more information.
-
+<a href="https://github.com/mmeyer95/Advanced-Lane-Finding">GitHub Repo</a>
 <br>
 [Back to Portfolio](https://meredithmeyer.info/)
+<br>
+Contact me (below) for more information.
