@@ -29,7 +29,7 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
     <center><img src="https://live.staticflickr.com/7892/46837284414_53f6ebd159.jpg" width="378" height="223" alt="persp xform"><img src="https://live.staticflickr.com/7833/33684284668_5c05c6d0e9.jpg" width="378" height="223" alt="persp xform2"></center>
 4. Detecting the lane lines
     With the perspective transform of the binary threshold, it was then time to detect the position of the lane lines. I found the positions of the pixels corresponding to the lane lines, and then used a polynomial fit to define those lanes with a single line. I determined the road curvature by converting to real world units based on standard lane width in the US. I calculated the final value with:
-    >R_curve=((1+(2Ay+B)^2)^(3/2))/∣2A∣
+    <blockquote>R_curve=((1+(2Ay+B)^2)^(3/2))/∣2A∣ </blockquote>
     where A and B are the first and second coefficients of a quadratic polynomial.
 5. Calculating lane curvature and offset
     Assuming the dash cam is centered to the car, the distance offset is the difference between the center of the lanes closest to the car, and the center of the image, converted to "real world" units.
