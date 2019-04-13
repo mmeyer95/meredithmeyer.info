@@ -12,7 +12,7 @@ Where **x** is the state matrix, **P** is the process covariance matrix, **Q** i
 
 Since radar measurements are in polar coordinates, the state vector must be converted to polar coordinates in order to compare the current state to a new radar measurement:
 
-<center><img src=""https://live.staticflickr.com/7817/46680354765_b6c4b7939f.jpg"></center>
+<center><img src="https://live.staticflickr.com/7817/46680354765_b6c4b7939f.jpg"></center>
 
 and the prediction error, **y,** must instead be calculated as:
 
@@ -22,11 +22,11 @@ Also, since radar comes in polar coordinates, it is not linear. Kalman Filters d
 
 A simulator was used to visualize the data points and print root-mean-square error (RMSE). The simulator shows the locations of the readings from Lidar (blue), from Radar (red), and the predicted position incorporating both data types (green).
 
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/33699311738" title="Kalman_ZoomIn"><img src="https://live.staticflickr.com/7896/33699311738_1b4a15439e.jpg" width="387" height="223" alt="Kalman_ZoomIn"></a></center>
+<center><img src="https://live.staticflickr.com/7896/33699311738_1b4a15439e.jpg" width="387" height="223" alt="Kalman_ZoomIn"></center>
 
 With my implemented filter, I was able to smoothly measure and track the location of the object (approximated as green) throughout travel in a figure 8:
 
-<center><a data-flickr-embed="true"  href="https://www.flickr.com/photos/169500224@N07/47520637392/in/photostream/" title="Kalman_ZoomOut"><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></a></center>
+<center><img src="https://live.staticflickr.com/7902/47520637392_273dac5236.jpg" width="500" height="300" alt="Kalman_ZoomOut"></center>
 
 The filter also works on another data set, which begins travel in the opposite direction and initializes with radar data, rather than lidar data:
 
