@@ -4,7 +4,7 @@ title: Traffic Sign Classification with a Convolutional Neural Network
 permalink: /Signs/
 ---
 
-The goal of this project was to train a CNN to identify images of German street signs from the LeNet data set. It is important to note that the data is not even distributed among categories. See the chart below: 
+The goal of this project was to train a CNN to identify images of German street signs from the LeNet data set. It is important to note that the data is not evenly distributed among categories. See the chart below: 
 <center><img src="https://live.staticflickr.com/7865/46852291614_179d3074db.jpg" width="500" height="304" alt="124"></center>
 
 Prior to passing images through the neural network, each was converted to grayscale and normalized by: (pixel-128)/128. 
