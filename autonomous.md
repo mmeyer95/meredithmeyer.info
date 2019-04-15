@@ -23,7 +23,7 @@ However, even with low loss in my neural network training (<3%), the car was not
 </table>
 </center>
 
-I also supplemented the data by flipped each image and negating each corresponding steering angle.
+I also supplemented the data by flipping each image and negating each corresponding steering angle.
 
 I based the structure of my CNN on the [NVIDIA model](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) for a self-driving car:
 
