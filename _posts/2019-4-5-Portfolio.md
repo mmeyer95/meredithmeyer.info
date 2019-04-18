@@ -6,7 +6,7 @@ permalink: /
 ***
 Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the **details** links, visit my [GitHub profile](https://github.com/mmeyer95/), or [contact me directly](mailto:meredith_meyer@berkeley.edu).
 
-## Lane Finding
+## Lane Finding Using Computer Vision
 #### Skills: Computer Vision, OpenCV, Python, Numpy, Camera Calibration, Video Processing, Jupyter Notebooks
 
 I was able to identify lane lines on video captured from a vehicle dash:
@@ -15,7 +15,7 @@ I was able to identify lane lines on video captured from a vehicle dash:
 
    [See the details](https://meredithmeyer.info/Lanes) or visit [GitHub](https://github.com/mmeyer95/Advanced-Lane-Finding).
 
-## Autonomous Driving
+## Autonomous Driving Using a Neural Network
 #### Skills: Behavioral Cloning, Deep Learning, Transfer Learning, CNNs, C++, Keras
 
 I trained a car simulation to drive on its own using behavioral cloning:
@@ -33,7 +33,12 @@ I classified street signs from individual images using a convolutional neural ne
 
    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
-## Kalman Filters
+## Localization Using a Partile Filter
+#### Skills: Localization, C++, GPS, LiDAR Sensor data, Multivariate Gaussian Distribution
+
+I was able to locate a "missing" vehicle using a particle filter and relative positional data of landmarks from LiDAR on the vehicle.
+
+## Sensor Fusion Using Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR, Gaussian Distriutions, Matrices
 
 I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
