@@ -15,7 +15,7 @@ Certified Motion Control Professional, Motion Control and Motor Association (201
 <br>Self Driving Car Engineer, Nanodegree at Udacity (June 2019, Expected)
 
 # Technical Skills
-3D Printing, Arduino, Android Studio, C++, Computer Vision, Deep Learning, Machine Learning, MATLAB, Motion Control, OpenCV, Project Management, Python, Rapid Prototyping, SolidWorks (CAD), TensorFlow
+3D Printing, Arduino, Android Studio, C++, Computer Vision, Deep Learning, Localization, Machine Learning, MATLAB, Motion Control, OpenCV, Project Management, Python, Rapid Prototyping, Sensor Fusion, SolidWorks (CAD), TensorFlow
 
 # Experience
 
