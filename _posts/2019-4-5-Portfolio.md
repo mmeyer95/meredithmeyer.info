@@ -24,7 +24,7 @@ I trained a car simulation to drive on its own using behavioral cloning:
 
    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
 
-## Street Sign Classification
+## Street Sign Classification Using CNN
 #### Skills: Computer Vision, Neural Networks, CNNs, Deep Learning, Python, Tensor Flow, Numpy, Jupyter Notebooks, LeNet 
 
 I classified street signs from individual images using a convolutional neural network.
