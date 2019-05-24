@@ -6,12 +6,12 @@ permalink: /trajectory/
 The goal of this project was to safely navigate a 3-lane highway in simulation, without colliding with other cars or exceeding the speed limit of 50 mph. Lane changes should only be made when they are both safe and help the car progress through traffic. Acceleration should remain under 10 m/s^2, and jerk under 10 m/s^3. 
 
 <center><img src="https://i.ibb.co/LhpM5jD/HWDriving-Trajectory.png"></center>
-<center>A screenshot of the simulator. Calculated trajectory points are shown in green.</center>
+<center>*A screenshot of the simulator. Calculated trajectory points are shown in green.*</center>
 
 The process for successful implementation of a self-driving car consists of many steps happening at overlapping times, as displayed by the below graphic.
 
 <center><img src="https://i.ibb.co/qJyNHLS/Process-overview.png"></center>
-<center>Diagram of process flow from Udacity.com</center>
+<center>*Diagram of process flow from Udacity.com*</center>
 
 Sensor fusion, localization, and motion control are each completed in a separate project. For this purposes of this project, these 3 steps are already accounted for.
 Therefore, the main task of the project can be split into 3 parts: prediction, behavior planning, and trajectory generation. It was accomplished in C++.
