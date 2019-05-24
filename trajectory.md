@@ -5,12 +5,12 @@ permalink: /trajectory/
 ---
 The goal of this project was to safely navigate a 3-lane highway in simulation, without colliding with other cars or exceeding the speed limit of 50 mph. Lane changes should only be made when they are both safe and help the car progress through traffic. Acceleration should remain under 10 m/s^2, and jerk under 10 m/s^3. 
 
-<center><img src="https://ibb.co/Hpg0dwL"></center>
+<center><img src="https://i.ibb.co/LhpM5jD/HWDriving-Trajectory.png"></center>
 <center>A screenshot of the simulator. Calculated trajectory points are shown in green.</center>
 
 The process for successful implementation of a self-driving car consists of many steps happening at overlapping times, as displayed by the below graphic.
 
-<center><img src="https://ibb.co/VwjgF01"></center>
+<center><img src="https://i.ibb.co/qJyNHLS/Process-overview.png"></center>
 <center>Diagram of process flow from Udacity.com</center>
 
 Sensor fusion, localization, and motion control are each completed in a separate project. For this purposes of this project, these 3 steps are already accounted for.
@@ -28,7 +28,7 @@ Once I defined the presence of other cars, I decided on a move and car speed. A 
 *There is another lane in that direction I can move to (the move wouldn’t pull me off the road or into opposing traffic)
 *There is no car in that lane OR the car in that lane is moving faster than the car in my lane, and it is at least 20 m away from me
 
-<center><img src="https://ibb.co/bm1FvMK"></center>
+<center><img src="https://i.ibb.co/YQ2XdFL/Behavior-Planning.jpg"></center>
 
 Red spaces in the above graphic indicate positions of neighboring cars which would make a left or right lane shift not allowed. The target speed is ideally that of either: the car in front of me, or the maximum speed allowed. However, to avoid sudden large accels or decels, I only incremented the velocity, rather than setting it to the nearby car’s speed immediately.
 
@@ -46,7 +46,7 @@ These steps are described below.
 3. Finally, I send the x & y points to the simulator. First, I fill the vectors with any remaining, un-processed points from the previous move. I always send the simulator 1 second, or 50 points, of data. Therefore, any open spots after the remaining points are added I fill with points from the splines calculated in step 2
 
 You can see from the screenshots that the car decides to switch lanes when it makes sense.
-<center><img src="https://ibb.co/xMR47Qr"><img src="https://ibb.co/ZLTFY8F"></center>
+<center><img src="https://i.ibb.co/THFCg5N/right-shift.png"><img src="https://i.ibb.co/WxKMPyM/left-shift.png"></center>
 
 [GitHub Repo](https://github.com/mmeyer95/Highway_Driving)<br>
 [Back to Portfolio](https://meredithmeyer.info/)
