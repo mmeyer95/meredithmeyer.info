@@ -15,6 +15,15 @@ I trained a car simulation to drive on its own using behavioral cloning:
 
    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
    
+## Prediction, Behavior Planning, and Trajectory Generation
+#### Skills: Path Planning, Extrapolation, Cost Functions, Interpolation, C++
+
+I programmed a car simulation to follow the road, change speeds, and switch lanes:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/DQPjBo8q4xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+[See the details](https://meredithmeyer.info/trajectory) or visit [GitHub](https://github.com/mmeyer95/Highway_Driving).
+
 ## Localization Using a Partile Filter
 #### Skills: Localization, C++, GPS, LiDAR Sensor data, Multivariate Gaussian Distribution
 
