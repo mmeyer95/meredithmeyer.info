@@ -48,6 +48,10 @@ These steps are described below.
 You can see from the screenshots that the car decides to switch lanes when it makes sense.
 <center><img src="https://i.ibb.co/THFCg5N/right-shift.png"><img src="https://i.ibb.co/WxKMPyM/left-shift.png"></center>
 
+Watch the video:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/DQPjBo8q4xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 [GitHub Repo](https://github.com/mmeyer95/Highway_Driving)<br>
 [Back to Portfolio](https://meredithmeyer.info/)
 
