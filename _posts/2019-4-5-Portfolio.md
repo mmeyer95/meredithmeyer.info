@@ -15,8 +15,8 @@ I trained a car simulation to drive on its own using behavioral cloning:
 
    [See the details](https://meredithmeyer.info/autonomous) or visit [GitHub](https://github.com/mmeyer95/BehavioralCloning).
    
-## Prediction, Behavior Planning, and Trajectory Generation
-#### Skills: Path Planning, Extrapolation, Cost Functions, Interpolation, C++
+## Autonomous Highway Driving
+#### Skills: Prediction, Path Planning, Trajectory Generation, C++
 
 I programmed a car simulation to follow the road, change speeds, and switch lanes:
 
