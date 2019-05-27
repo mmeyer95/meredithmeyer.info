@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Behavior Planning & Trajectory Generation
-permalink: /trajectory/
+title: Autonomous Highway Driving
+permalink: /highway/
 ---
 The goal of this project was to safely navigate a 3-lane highway in simulation, without colliding with other cars or exceeding the speed limit of 50 mph. Lane changes should only be made when they are both safe and help the car progress through traffic. Acceleration should remain under 10 m/s^2, and jerk under 10 m/s^3. 
 
@@ -14,7 +14,7 @@ The process for successful implementation of a self-driving car consists of many
 <center><i>Diagram of process flow from Udacity.com</i></center>
 
 Sensor fusion, localization, and motion control are each completed in a separate project. For this purposes of this project, these 3 steps are already accounted for.
-Therefore, the main task of the project can be split into 3 parts: prediction, behavior planning, and trajectory generation. It was accomplished in C++.
+Therefore, the main task of the project can be split into 3 parts: <b>prediction</b>, <b>behavior planning</b>, and <b>trajectory generation</b>. It was accomplished in C++.
 
 ### Prediction
 Prediction uses sensor fusion data to identify nearby cars and predict where they will be in the future. For the prediction step, since the simulation is run on a highway, I did not have to account for turns. Also, for the purpose of this project I assumed I would not have to account for sudden stops. The sensor fusion data includes the cars' x and y positions, in map coordinate, as well as the x and y components of their velocities. I used simple kinematics to calculate a predicted position and velocity for the other cars on the road at a future time t. Since I pass 1 second of trajectory data to the simulator at a time, t is less than or equal to 1 second (depending on how much time passes between execution of the code). It was also helpful in this step to use a different coordinate system, s & d. 
