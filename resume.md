@@ -15,39 +15,41 @@ Certified Motion Control Professional, Motion Control and Motor Association (201
 <br>Self Driving Car Engineer, Nanodegree at Udacity (June 2019, Expected)
 
 # Technical Skills
-3D Printing, Arduino, Android Studio, C++, Computer Vision, Deep Learning, Localization, Machine Learning, MATLAB, Motion Control, OpenCV, PID Control, Project Management, Python, Rapid Prototyping, Sensor Fusion, SolidWorks (CAD), TensorFlow
+3D Printing, Arduino, <b>C++</b>, Computer Vision, Deep Learning, <b>Embedded Systems</b>, Localization, <b>Machine Learning</b>, MATLAB, <b>Motion Control</b>, OpenCV, PID Control, Project Management, <b> Behavior & Path Planning</b>, Python, Rapid Prototyping, Sensor Fusion, SolidWorks (CAD), TensorFlow
 
 # Experience
 
 ### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
 #### December 2018- Present
+* Develop algorithms for behavior and path planning in highway driving
+* Achieve localization of a car on a map from sensor fusion data
+* Execute an Extended Kalman Filter using C++ and Sensor Fusion
+* Train a simulator to drive a car autonomously with a Keras Neural Network in Python
 * Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video
 * Utilize Deep Learning techniques to categorize road signs in images using Python
-* Train a simulator to drive a car autonomously with a Keras Neural Network in Python
-* Execute an Extended Kalman Filter using C++ and Sensor Fusion
 
 ### Applications Engineer, Moog Animatics                                 
 #### August 2018- Present
+* Support customers daily in troubleshooting and product selection for embedded systems
 * Execute SmartMotor motion control applications through text-based programming
-* Train distributors on operation and features of SmartMotors using proprietary software
-* Support customers in troubleshooting and product selection
+* Train distributors bi-monthly on operation and features of SmartMotors using proprietary software
 
 ### Project Manager, Smart Exercise Bike (Capstone Project)			      
 #### December 2017- May 2018
-* Selected appropriate hardware to fabricate a mechanical system
-* Created and programmed an encoder using Arduino
-* Designed and conducted tests to verify the electromechanical device
+* Select appropriate hardware to fabricate a mechanical system
+* Create and programmed an encoder using Arduino
+* Designe and conducted tests to verify the electromechanical device
 
 ### Electromechanical Engineer, “Voila” (Course Project)			      	   
 #### October- December 2017
-* Utilized 3D printing and laser cutting to rapidly iterate prototypes
-* Tested and programmed sensors in Python & Arduino for a device to react to tactile inputs
-* Solved manufacturing problems to create a final polished device
+* Utilize 3D printing and laser cutting to rapidly iterate prototypes
+* Test and programmed sensors in Python & Arduino for a device to react to tactile inputs
+* Solve manufacturing problems to create a final polished device
 
 ### MATLAB Programmer, Human Movement and Balance Lab			 	              
 #### June 2015- May 2016
-* Conducted data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
-* Assisted in completion of subject testing for research study using Vicon motion-capture system
+* Conduct data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
+* Assist in completion of subject testing for research study using Vicon motion-capture system
 
 
 # Community & Personal Development
