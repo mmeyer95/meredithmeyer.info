@@ -22,7 +22,7 @@ Certified Motion Control Professional, [Motion Control and Motor Association](ht
 ### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
 #### December 2018- Present
 * [Develop algorithms for behavior and path planning in highway driving](https://meredithmeyer.info/highway)
-* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/Local)
+* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/Localize)
 * [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info/Kalman)
 * [Train a simulator to drive a car autonomously with a Keras Neural Network in Python](https://meredithmeyer.info/autonomous)
 * [Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video](https://meredithmeyer.info/Lanes)
