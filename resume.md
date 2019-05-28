@@ -11,8 +11,8 @@ M.Eng, Mechanical Engineering, University of California Berkeley (2018)
 
 ### Certificates
 
-Certified Motion Control Professional, Motion Control and Motor Association (2019)
-<br>Self Driving Car Engineer, Nanodegree at Udacity (June 2019, Expected)
+Certified Motion Control Professional, [Motion Control and Motor Association](https://www.motioncontrolonline.org/meet-certified-motion-control-professionals.cfm) (2019)
+<br>[Self Driving Car Engineer, Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013#) at Udacity (June 2019, Expected)
 
 # Technical Skills
 3D Printing, Arduino, <b>C++</b>, Computer Vision, Deep Learning, <b>Embedded Systems</b>, Localization, <b>Machine Learning</b>, MATLAB, <b>Motion Control</b>, OpenCV, PID Control, Project Management, <b> Behavior & Path Planning</b>, Python, Rapid Prototyping, Sensor Fusion, SolidWorks (CAD), TensorFlow
@@ -21,12 +21,12 @@ Certified Motion Control Professional, Motion Control and Motor Association (201
 
 ### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
 #### December 2018- Present
-* Develop algorithms for behavior and path planning in highway driving
-* Achieve localization of a car on a map from sensor fusion data
-* Execute an Extended Kalman Filter using C++ and Sensor Fusion
-* Train a simulator to drive a car autonomously with a Keras Neural Network in Python
-* Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video
-* Utilize Deep Learning techniques to categorize road signs in images using Python
+* [Develop algorithms for behavior and path planning in highway driving](https://meredithmeyer.info/highway)
+* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/localization)
+* [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info//kalman)
+* [Train a simulator to drive a car autonomously with a Keras Neural Network in Python](https://meredithmeyer.info/autonomous)
+* [Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video](https://meredithmeyer.info/lanes)
+* [Utilize Deep Learning techniques to categorize road signs in images using Python](https://meredithmeyer.info/signs)
 
 ### Applications Engineer, Moog Animatics                                 
 #### August 2018- Present
@@ -36,20 +36,20 @@ Certified Motion Control Professional, Motion Control and Motor Association (201
 
 ### Project Manager, Smart Exercise Bike (Capstone Project)			      
 #### December 2017- May 2018
-* Select appropriate hardware to fabricate a mechanical system
-* Create and programmed an encoder using Arduino
-* Designe and conducted tests to verify the electromechanical device
+* Selected appropriate hardware to fabricate a mechanical system
+* Created and programmed an encoder using Arduino
+* Designed and conducted tests to verify the electromechanical device
 
 ### Electromechanical Engineer, “Voila” (Course Project)			      	   
 #### October- December 2017
-* Utilize 3D printing and laser cutting to rapidly iterate prototypes
-* Test and programmed sensors in Python & Arduino for a device to react to tactile inputs
-* Solve manufacturing problems to create a final polished device
+* Utilized 3D printing and laser cutting to rapidly iterate prototypes
+* Tested and programmed sensors in Python & Arduino for a device to react to tactile inputs
+* Solved manufacturing problems to create a final polished device
 
 ### MATLAB Programmer, Human Movement and Balance Lab			 	              
 #### June 2015- May 2016
-* Conduct data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
-* Assist in completion of subject testing for research study using Vicon motion-capture system
+* Conducted data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
+* Assisted in completion of subject testing for research study using Vicon motion-capture system
 
 
 # Community & Personal Development
@@ -69,13 +69,13 @@ Certified Motion Control Professional, Motion Control and Motor Association (201
 
 ### Kaplan Test Prep							    	                                         
 #### June 2017- December 2018
-* Instruct diverse classes to achieve higher scores on college and graduate admissions exams
-* Provide personalized advice and support in study techniques for individual students      
+* Instructed diverse classes to achieve higher scores on college and graduate admissions exams
+* Provided personalized advice and support in study techniques for individual students      
 
 ### Personnel Chair, Chi Omega Fraternity
 #### November 2015- January 2017
-* Oversee conduct, rules, and regulatory procedures within the Chapter
-* Coordinate activities and functions for personal and professional development
+* Oversaw conduct, rules, and regulatory procedures within the Chapter
+* Coordinated activities and functions for personal and professional development
 
 # Honors and Awards
 
