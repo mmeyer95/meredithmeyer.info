@@ -22,11 +22,11 @@ Certified Motion Control Professional, [Motion Control and Motor Association](ht
 ### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
 #### December 2018- Present
 * [Develop algorithms for behavior and path planning in highway driving](https://meredithmeyer.info/highway)
-* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/localization)
-* [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info//kalman)
+* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/Local)
+* [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info/Kalman)
 * [Train a simulator to drive a car autonomously with a Keras Neural Network in Python](https://meredithmeyer.info/autonomous)
-* [Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video](https://meredithmeyer.info/lanes)
-* [Utilize Deep Learning techniques to categorize road signs in images using Python](https://meredithmeyer.info/signs)
+* [Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video](https://meredithmeyer.info/Lanes)
+* [Utilize Deep Learning techniques to categorize road signs in images using Python](https://meredithmeyer.info/Signs)
 
 ### Applications Engineer, Moog Animatics                                 
 #### August 2018- Present
@@ -34,13 +34,13 @@ Certified Motion Control Professional, [Motion Control and Motor Association](ht
 * Execute SmartMotor motion control applications through text-based programming
 * Train distributors bi-monthly on operation and features of SmartMotors using proprietary software
 
-### Project Manager, Smart Exercise Bike (Capstone Project)			      
+### Project Manager, [Smart Exercise Bike (Capstone Project)](https://meredithmeyer.info/Workout)			      
 #### December 2017- May 2018
 * Selected appropriate hardware to fabricate a mechanical system
 * Created and programmed an encoder using Arduino
 * Designed and conducted tests to verify the electromechanical device
 
-### Electromechanical Engineer, “Voila” (Course Project)			      	   
+### Electromechanical Engineer, [“Voila” (Course Project)](https://meredithmeyer.info/Voila)			      	   
 #### October- December 2017
 * Utilized 3D printing and laser cutting to rapidly iterate prototypes
 * Tested and programmed sensors in Python & Arduino for a device to react to tactile inputs
