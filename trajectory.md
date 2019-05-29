@@ -38,8 +38,9 @@ The goal of the behavior planning step for this project is the determination of 
 
 Once I defined the presence of other cars, I decided on a move and car speed. I used boolean logic to determine if a right or left lane change was appropriate:
 
-<code>bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1; 
-          bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; </code>
+<code>bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1;
+          
+bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; </code>
 
 The conditions for a lane switch, as defined by the above code are:
 * A lane change would not put the ego car off the road
