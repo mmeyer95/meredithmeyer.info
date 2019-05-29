@@ -34,12 +34,9 @@ where velocities are given in m/s, and positions are in terms of the coordinate 
 The output of the prediction step is used in the next step, behavior planning.
 
 ### Behavior Planning
-The goal of the behavior planning step for this project is the determination of a target lane (1, 2, or 3) and speed (<50 mph). 
-
 Once I defined the presence of other cars, I decided on a move and car speed. I used boolean logic to determine if a right or left lane change was appropriate:
 
 <code>bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1;
-          
 bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; </code>
 
 The conditions for a lane switch, as defined by the above code are:
@@ -52,6 +49,8 @@ The conditions for a lane switch, as defined by the above code are:
 
 Red spaces in the above graphic indicate positions of neighboring cars which would make a left or right lane shift not allowed. The target speed is ideally that of either: the car in front of me, or the maximum speed allowed. However, to avoid sudden large accels or decels, I only incremented the velocity, rather than setting it to the nearby car’s speed immediately.
 
+The output of the behavior planning step for this project is the target lane (1, 2, or 3) and speed (<50 mph), then used in the next step.
+
 ### Trajectory Generation
 After determining a behavior as a goal lane and move speed, the trajectory generation step determines the actual X & Y values for the trajectory of the car. To do so, I:
 
@@ -61,14 +60,15 @@ After determining a behavior as a goal lane and move speed, the trajectory gener
 
 These steps are described below.
 
-1. The 5 points used as car visit points consist of 2 previous points and 3 future points. The previous points are the last x & y points from the previous path, if there are unprocessed points. If there is no previous path, likely just at the start of the simulator, the previous points are the car’s current x & y plus one point behind the car’s current s value, in the same lane. The 3 future x & y points I defined as 30, 60, and 90 meters down the road in the middle of the target lane.
-2. The timing of the previous 2 points in straight-forward. The most recent point is time 0, while one step prior is -0.02 second, since each trajectory point is always 0.02 seconds apart. The timing of the next 3 points must be based upon the car’s commanded velocity. I calculate the time stamp from the distance between the two points and the velocity at which the car should be travelling, based on: Time = Distance/ Speed. With all visit points defined, I calculated 2 splines: one for x vs. time, one for y vs. time.
+1. The 5 points I used as car visit points consist of 2 previous points and 3 future points. The previous points are the last x & y points from the previous path, if there are unprocessed points. If there is no previous path, likely at the start of the simulator, the previous points are the car’s current x & y plus one point behind the car’s current s value, in the same lane. The 3 future x & y points I defined as 30, 60, and 90 meters down the road in the middle of the target lane.
+2. The timing of the points involve calculations. The most recent point is time 0, which is straight-forward. The timing of the next remaining points must be based upon the car’s commanded velocity. I calculate the time stamp from the distance between the two points and the velocity at which the car should be travelling, based on: Time = Distance/ Speed. With all visit points defined, I calculated 2 splines: one for x vs. time, one for y vs. time.
 3. Finally, I send the x & y points to the simulator. First, I fill the vectors with any remaining, un-processed points from the previous move. I always send the simulator 1 second, or 50 points, of data. Therefore, any open spots after the remaining points are added I fill with points from the splines calculated in step 2
 
 You can see from the screenshots that the car decides to switch lanes when it makes sense.
 <center><img src="https://i.ibb.co/THFCg5N/right-shift.png"><img src="https://i.ibb.co/WxKMPyM/left-shift.png"></center>
+<center><i>Screenshots of left and right lane changes.</i></center>
 
-Watch the video:
+Watch the full video:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/DQPjBo8q4xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
