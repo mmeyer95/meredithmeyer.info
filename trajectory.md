@@ -22,7 +22,7 @@ Prediction uses sensor fusion data to identify nearby cars and predict where the
 It was also helpful in this step to use a different coordinate system, s & d. 
 
 <center><img src="https://live.staticflickr.com/65535/47955424321_06b97d9469.jpg" width="500" height="269" alt="XY_sd"></center>
-<i>Visualization of s&d vs x&y coordinate system from Udacity.com</i>
+<center><i>Visualization of s&d vs x&y coordinate system from Udacity.com</i></center>
 
 While x & y coordinates provide the absolute position on a map, s & d coordinates describe the position along a road, and the distance from the center line. This is helpful for calculating net travel distance, as well as which lane the car is in. Each lane is 4m wide, therefore the center of the first lane is located at d=2m. Likewise, lanes 2 and 3 are centered at d=6m and d=10m, respectively.
 
@@ -42,7 +42,8 @@ Once I defined the presence of other cars, I decided on a move and car speed. I 
 
 The conditions for a lane switch, as defined by the above code are:
 * A lane change would not put the ego car off the road
-* There is no car in the target lane OR <ul><li>The neighboring lane is moving at 5 mph faster than the current lane AND the neighboring car is a safe distance away</li></ul>
+* There is no car in the target lane OR 
+..* The neighboring lane is moving at 5 mph faster than the current lane AND the neighboring car is a safe distance away
 * The ego car is not in the middle of a lane change in the opposite direction
 
 <center><img src="https://i.ibb.co/YQ2XdFL/Behavior-Planning.jpg"></center>
