@@ -3,21 +3,33 @@ layout: page
 title: Autonomous Highway Driving
 permalink: /highway/
 ---
-The goal of this project was to safely navigate a 3-lane highway in simulation, without colliding with other cars or exceeding the speed limit of 50 mph. Lane changes should only be made when they are both safe and help the car progress through traffic. Acceleration should remain under 10 m/s^2, and jerk under 10 m/s^3. 
+The goal of this project was to safely navigate a 3-lane highway in simulation, without colliding with other cars or exceeding the speed limit of 50 mph. Lane changes should only be made when they are both safe and help the car (the "ego" car) progress through traffic. Acceleration should remain under 10 m/s^2, and jerk under 10 m/s^3. The simulator accepts trajectory points, in x & y coordinates, of the car's target position every 0.02 seconds.
 
 <center><img src="https://i.ibb.co/LhpM5jD/HWDriving-Trajectory.png"></center>
 <center><i>A screenshot of the simulator. Calculated trajectory points are shown in green.</i></center>
 
 The process for successful implementation of a self-driving car consists of many steps happening at overlapping times, as displayed by the below graphic.
 
-<center><img src="https://i.ibb.co/qJyNHLS/Process-overview.png"></center>
+<center><img src="https://i.ibb.co/qJyNHLS/Process-overview.png" width="300"></center>
 <center><i>Diagram of process flow from Udacity.com</i></center>
 
 Sensor fusion, localization, and motion control are each completed in a separate project. For this purposes of this project, these 3 steps are already accounted for.
 Therefore, the main task of the project can be split into 3 parts: <b>prediction</b>, <b>behavior planning</b>, and <b>trajectory generation</b>. It was accomplished in C++.
 
 ### Prediction
-Prediction uses sensor fusion data to identify nearby cars and predict where they will be in the future. For the prediction step, since the simulation is run on a highway, I did not have to account for turns. Also, for the purpose of this project I assumed I would not have to account for sudden stops. The sensor fusion data includes the cars' x and y positions, in map coordinate, as well as the x and y components of their velocities. I used simple kinematics to calculate a predicted position and velocity for the other cars on the road at a future time t. Since I pass 1 second of trajectory data to the simulator at a time, t is less than or equal to 1 second (depending on how much time passes between execution of the code). It was also helpful in this step to use a different coordinate system, s & d. 
+Prediction uses sensor fusion data to identify nearby cars and predict where they will be in the future. For the prediction step, since the simulation is run on a highway, I did not have to account for turns. Also, for the purpose of this project I assumed I would not have to account for sudden stops. The sensor fusion data includes the cars' x and y positions, in map coordinate, as well as the x and y components of their velocities. I used simple kinematics to calculate a predicted position and velocity for the other cars on the road at a future time t. Since I pass 1 second of trajectory data to the simulator at a time, t is less than or equal to 1 second (depending on how much time passes between execution of the code). 
+
+It was also helpful in this step to use a different coordinate system, s & d. 
+
+<center><img src="https://live.staticflickr.com/65535/47955424321_06b97d9469.jpg" width="500" height="269" alt="XY_sd"></center>
+<i>Visualization of s&d vs x&y coordinate system from Udacity.com</i>
+
+While x & y coordinates provide the absolute position on a map, s & d coordinates describe the position along a road, and the distance from the center line. This is helpful for calculating net travel distance, as well as which lane the car is in. Each lane is 4m wide, therefore the center of the first lane is located at d=2m. Likewise, lanes 2 and 3 are centered at d=6m and d=10m, respectively.
+
+Mathematicall, the prediction step involved the following equations:
+<center><img src="https://live.staticflickr.com/65535/47955520731_3d1085bd24.jpg"></center>
+
+where velocities are given in m/s, and positions are in terms of the coordinate "s". Predictions for the ego car were similarly calculated.
 
 The output of the prediction step is used in the next step, behavior planning.
 
@@ -27,6 +39,12 @@ The goal of the behavior planning step for this project is the determination of 
 Once I defined the presence of other cars, I decided on a move and car speed. A move to another lane was only allowed if the following conditions are met:
 *There is another lane in that direction I can move to (the move wouldn’t pull me off the road or into opposing traffic)
 *There is no car in that lane OR the car in that lane is moving faster than the car in my lane, and it is at least 20 m away from me
+
+'''
+		  //Based on car proximities, pick a move
+		  bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1; //left move possible if conditions met
+          bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; //right move possible if conditions met
+'''
 
 <center><img src="https://i.ibb.co/YQ2XdFL/Behavior-Planning.jpg"></center>
 
