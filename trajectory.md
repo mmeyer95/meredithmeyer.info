@@ -43,7 +43,7 @@ Once I defined the presence of other cars, I decided on a move and car speed. I 
 The conditions for a lane switch, as defined by the above code are:
 * A lane change would not put the ego car off the road
 * There is no car in the target lane OR 
-..* The neighboring lane is moving at 5 mph faster than the current lane AND the neighboring car is a safe distance away
+    * The neighboring lane is moving at 5 mph faster than the current lane AND the neighboring car is a safe distance away
 * The ego car is not in the middle of a lane change in the opposite direction
 
 <center><img src="https://i.ibb.co/YQ2XdFL/Behavior-Planning.jpg"></center>
