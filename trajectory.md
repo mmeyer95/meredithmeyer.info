@@ -26,7 +26,7 @@ It was also helpful in this step to use a different coordinate system, s & d.
 
 While x & y coordinates provide the absolute position on a map, s & d coordinates describe the position along a road, and the distance from the center line. This is helpful for calculating net travel distance, as well as which lane the car is in. Each lane is 4m wide, therefore the center of the first lane is located at d=2m. Likewise, lanes 2 and 3 are centered at d=6m and d=10m, respectively.
 
-Mathematicall, the prediction step involved the following equations:
+Mathematically, the prediction step involved the following equations:
 <center><img src="https://live.staticflickr.com/65535/47955520731_3d1085bd24.jpg"></center>
 
 where velocities are given in m/s, and positions are in terms of the coordinate "s". Predictions for the ego car were similarly calculated.
@@ -36,15 +36,18 @@ The output of the prediction step is used in the next step, behavior planning.
 ### Behavior Planning
 The goal of the behavior planning step for this project is the determination of a target lane (1, 2, or 3) and speed (<50 mph). 
 
-Once I defined the presence of other cars, I decided on a move and car speed. A move to another lane was only allowed if the following conditions are met:
-*There is another lane in that direction I can move to (the move wouldn’t pull me off the road or into opposing traffic)
-*There is no car in that lane OR the car in that lane is moving faster than the car in my lane, and it is at least 20 m away from me
+Once I defined the presence of other cars, I decided on a move and car speed. I used boolean logic to determine if a right or left lane change was appropriate:
 
 '''
-		  //Based on car proximities, pick a move
-		  bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1; //left move possible if conditions met
-          bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; //right move possible if conditions met
+		  bool left_move = current_lane>0 && (!car_left || ((ref_vels[current_lane-1] > ref_vels[current_lane]+4) && ref_dists[current_lane-1]>20)) && behaviors.back()!=1; 
+          bool right_move = current_lane<2 && (!car_right || ((ref_vels[current_lane+1] > ref_vels[current_lane]+4) && ref_dists[current_lane+1]>20)) && behaviors.back()!=-1; 
 '''
+
+The conditions for a lane switch, as defined by the above code are:
+* A lane change would not put the ego car off the road
+* There is no car in the target lane
+OR * The neighboring lane is moving at 5 mph faster than the current lane AND the neighboring car is a safe distance away
+* The ego car is not in the middle of a lane change in the opposite direction
 
 <center><img src="https://i.ibb.co/YQ2XdFL/Behavior-Planning.jpg"></center>
 
