@@ -45,3 +45,7 @@ Where all of these steps are looped for each parameter. Twiddle helps to hone in
 
 and the car was able to drive around the track continuously without leaving the driveable portion of the track.
 
+[GitHub Repo](https://github.com/mmeyer95/PID_Driving)<br>
+[Back to Portfolio](https://meredithmeyer.info/)
+
+<br><center>Contact me (below) for more information.</center>
