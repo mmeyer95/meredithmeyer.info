@@ -56,10 +56,6 @@ Where all of these steps are looped for each parameter. Twiddle helps to hone in
 
 <center><table>
   <tr>
-    <th>Parameter</th>
-    <th>Value</th> 
-  </tr>
-  <tr>
     <td>Kp</td>
     <td>0.0718455</td> 
   </tr>
