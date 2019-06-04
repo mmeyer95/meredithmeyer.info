@@ -36,6 +36,10 @@ I was able to locate a "missing" vehicle using a particle filter and relative po
 ## PID Controller
 #### Skills: PID Control, Tuning, Twiddle, C++
 
+I implemented and tuned a PID controller in C++.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kdVC-ikuMPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 [See the details](https://meredithmeyer.info/PID) or visit [GitHub](https://github.com/mmeyer95/PID_Driving).
 
 ## Lane Finding Using Computer Vision
