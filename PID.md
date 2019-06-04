@@ -69,7 +69,9 @@ Where all of these steps are looped for each parameter. Twiddle helps to hone in
   </tr>
 </table></center>
 
-and the car was able to drive around the track continuously without leaving the driveable portion of the track.
+and the car was able to drive around the track continuously without leaving the driveable portion of the track. Watch the video:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kdVC-ikuMPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 [GitHub Repo](https://github.com/mmeyer95/PID_Driving)<br>
 [Back to Portfolio](https://meredithmeyer.info/)
