@@ -15,9 +15,9 @@ Setting the K values (the constants), is done through a process called tuning. F
 
 <center><table width="300">
   <tr>
-    <th>Parameter    </th>
-    <th>Value</th> 
-    <th>Dp    </th>
+    <td><b>Parameter</b></td>
+    <td><b>Value</b></td> 
+    <td><b>Dp</b></td>
   </tr>
   <tr>
     <td>Kp</td>
@@ -54,17 +54,17 @@ Once I had this starting point, I incorporating twiddle to optimize the paramete
 
 Where all of these steps are looped for each parameter. Twiddle helps to hone in on the optimized value of each parameter. Through utilizing twiddle, resetting my starting values, and running twiddle again, I was able to optimize the K parameters. The final output was:
 
-<center><table border = "1" cellpadding = "5" cellspacing = "5">
+<center><table width="300">
   <tr>
-    <td>Kp</td>
+    <td><b>Kp</b></td>
     <td>0.0718455</td> 
   </tr>
   <tr>
-    <td>Ki</td>
+    <td><b>Ki</b></td>
     <td>0.00449649</td> 
   </tr>
   <tr>
-    <td>Kd</td>
+    <td><b>Kd</b></td>
     <td>1.4344</td> 
   </tr>
 </table></center>
