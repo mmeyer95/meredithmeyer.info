@@ -33,6 +33,11 @@ I was able to locate a "missing" vehicle using a particle filter and relative po
 
 [See the details](https://meredithmeyer.info/Locate) or visit [GitHub](https://github.com/mmeyer95/Kidnapped_Vehicle).
 
+## PID Controller
+#### Skills: PID Control, Tuning, Twiddle, C++
+
+[See the details](https://meredithmeyer.info/PID) or visit [GitHub](https://github.com/mmeyer95/PID_Driving).
+
 ## Lane Finding Using Computer Vision
 #### Skills: Computer Vision, OpenCV, Python, Numpy, Camera Calibration, Video Processing, Jupyter Notebooks
 
