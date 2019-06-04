@@ -11,25 +11,28 @@ I utilized the principles of PID control in order to maneuver a car around a tra
 The image above illustrates the components of error. If the green line represents the target outcome, and the black line represents the actual output, then at the time represented by the last shown black point on the curve: error is shown as the blue line, derivative error is the pink line, and integral error is the yellow space. A PID controller uses 3 constants, one for each component of error, as factors in setting the next control value. Therefore, at this point in time, the controller would set the output (steering angle) as:
 
 <center><img src="https://live.staticflickr.com/65535/47998072737_8c8270f6f7.jpg"></center>
-
-Setting the K values (the constants), is done through a process called tuning. For this project, I used a combination of manual tuning and twiddle, as discussed in the lesson. For manual tuning, I took the baseline steering values of [ -1, 1] to logically decide on starting magnitudes. Since integral error is the largest value, Ki should be the smallest value. The next largest error would likely be proportional error, so Kp is the middle value, and that leaves Kd as the largest value. Using simple factors of 10, I started with Kp=0.01, Ki=0.001, and Kd=0.1. However, in my manner of manual tuning, I started first with a P controller, then made it a PD controller, and finally a PID controller. This allowed me to manually tune each one of the parameters at a time. My self-tuning method was sort of a manual twiddle: my first comparison was multiplying the parameter by 10, and if that was not an improvement, I would divide the original parameter by 10. Then I decreased the magnitude of the change until I found values that were reasonable estimates. The values I found were: 
+Setting the K values (the constants), is done through a process called tuning. For this project, I used a combination of manual tuning and twiddle, as discussed in the lesson. For manual tuning, I took the baseline steering values of [ -1, 1] to logically decide on starting magnitudes. Since integral error is the largest value, Ki should be the smallest value. The next largest error would likely be proportional error, so Kp is the middle value, and that leaves Kd as the largest value. Using simple factors of 10, I started with Kp=0.01, Ki=0.001, and Kd=0.1. However, in my manner of manual tuning, I started first with a P controller, then made it a PD controller, and finally a PID controller. This allowed me to manually tune each one of the parameters at a time. My self-tuning method was sort of a manual twiddle: my first comparison was multiplying the parameter by 10, and if that was not an improvement, I would divide the original parameter by 10. Then I decreased the magnitude of the change until I found values that were reasonable estimates. I then chose initial increment values(Dp) that were the closest exponent of 10 to each initial value.
 
 <center><table>
   <tr>
-    <th>Parameter</th>
+    <th>Parameter    </th>
     <th>Value</th> 
+    <th>Dp    </th>
   </tr>
   <tr>
     <td>Kp</td>
     <td>0.05</td> 
+    <td>0.01</td>
   </tr>
   <tr>
     <td>Ki</td>
-    <td>0.05</td> 
+    <td>0.001</td> 
+    <td>0.0001</td>
   </tr>
   <tr>
     <td>Kd</td>
     <td>1.0</td> 
+    <td>0.1</td>
   </tr>
 </table></center>
 
