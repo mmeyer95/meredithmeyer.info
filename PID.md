@@ -13,7 +13,7 @@ The image above illustrates the components of error. If the green line represent
 <center><img src="https://live.staticflickr.com/65535/47998072737_8c8270f6f7.jpg"></center>
 Setting the K values (the constants), is done through a process called tuning. For this project, I used a combination of manual tuning and twiddle, as discussed in the lesson. For manual tuning, I took the baseline steering values of [ -1, 1] to logically decide on starting magnitudes. Since integral error is the largest value, Ki should be the smallest value. The next largest error would likely be proportional error, so Kp is the middle value, and that leaves Kd as the largest value. Using simple factors of 10, I started with Kp=0.01, Ki=0.001, and Kd=0.1. However, in my manner of manual tuning, I started first with a P controller, then made it a PD controller, and finally a PID controller. This allowed me to manually tune each one of the parameters at a time. My self-tuning method was sort of a manual twiddle: my first comparison was multiplying the parameter by 10, and if that was not an improvement, I would divide the original parameter by 10. Then I decreased the magnitude of the change until I found values that were reasonable estimates. I then chose initial increment values(Dp) that were the closest exponent of 10 to each initial value.
 
-<center><table border = "1" cellpadding = "5" cellspacing = "5">
+<center><table width="300">
   <tr>
     <th>Parameter    </th>
     <th>Value</th> 
@@ -36,7 +36,7 @@ Setting the K values (the constants), is done through a process called tuning. F
   </tr>
 </table></center>
 
-Once I had this starting point, I incorporating twiddle to optimize the parameters further. I started with my aforementioned values, and dp values of {0.01, 0.001, 0.1}, about a factor of 10 below the starting values. The process of twiddle looks like:
+Once I had this starting point, I incorporating twiddle to optimize the parameters further. The process of twiddle looks like:
 
 * Get the current error
     * Increment the parameter & get the new error:
