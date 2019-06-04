@@ -19,7 +19,8 @@ Setting the K values (the constants), is done through a process called tuning. F
 |----|-------|
 | Kp | 0.05  |
 | Ki | 0.001 |
-| Kd | 1.0   |<center>
+| Kd | 1.0   |
+</center>
 
 Once I had this starting point, I incorporating twiddle to optimize the parameters further. I started with my aforementioned values, and dp values of {0.01, 0.001, 0.1}, about a factor of 10 below the starting values. The process of twiddle looks like:
 
@@ -44,7 +45,8 @@ Where all of these steps are looped for each parameter. Twiddle helps to hone in
 |----|-------|
 | Kp | 0.0718455  |
 | Ki | 0.00449649 |
-| Kd | 1.4344   |<center>
+| Kd | 1.4344   |
+</center>
 
 and the car was able to drive around the track continuously without leaving the driveable portion of the track.
 
