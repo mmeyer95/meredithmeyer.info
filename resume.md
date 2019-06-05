@@ -21,6 +21,7 @@ Certified Motion Control Professional, [Motion Control and Motor Association](ht
 
 ### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
 #### December 2018- Present
+* [Program and tune parameters for a PID controller](https://meredithmeyer.info/PID)
 * [Develop algorithms for behavior and path planning in highway driving](https://meredithmeyer.info/highway)
 * [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/Locate)
 * [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info/Kalman)
