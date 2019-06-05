@@ -54,6 +54,7 @@ Certified Motion Control Professional, [Motion Control and Motor Association](ht
 
 # Testimonials
 "[I]t is so awesome to have someone with [her] knowledge and capability there – especially with so many young people coming to the booth, [she] really should be proud to be an inspiration to that next generation.  [She is] super talented and [her] professionalism was perfect."<br>
+"I’m glad we have Meredith to catch these details."<br>
 "I think you should get some input from...Meredith (she seems pretty creative and has a good eye for detail)."<br>
 "Meredith did great and it's good to have a backup for on site support."<br>
 "...thanks for spotting and reporting that problem."
