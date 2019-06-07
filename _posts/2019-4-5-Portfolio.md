@@ -68,6 +68,15 @@ I tracked and predicted the motion of a bicycle relative to a vehicle with simul
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
    [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
+   
+## Motor Sizer
+#### Skills: C#, Visual Studio, Windows Forms Applications
+
+I am designing a C# Windows Form application. It sizes multiple axes and selects appropriate hardware for motors, gearboxes, and actuators if applicable. It is designed to be used with Moog Animatics' product line.
+
+<img src="https://live.staticflickr.com/65535/48011518892_425e697ec2.jpg">
+
+[GitHub](https://github.com/mmeyer95/Motor-Sizer)
 
 ## Voila: Fitness Data Hub
 #### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
