@@ -74,7 +74,7 @@ I tracked and predicted the motion of a bicycle relative to a vehicle with simul
 
 I am designing a C# Windows Form application. It sizes multiple axes and selects appropriate hardware for motors, gearboxes, and actuators if applicable. It is designed to be used with Moog Animatics' product line.
 
-<img src="https://live.staticflickr.com/65535/48011518892_425e697ec2.jpg">
+<center><img src="https://live.staticflickr.com/65535/48011518892_425e697ec2.jpg"></center>
 
 [GitHub](https://github.com/mmeyer95/Motor-Sizer)
 
