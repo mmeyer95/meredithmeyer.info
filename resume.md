@@ -4,93 +4,40 @@ title: Resume
 permalink: /resume/
 ---
 ***
-# Education
 
-M.Eng, Mechanical Engineering, University of California Berkeley (2018)
-<br>B.S., Bioengineering, University of Pittsburgh (2017)
+# Mission
 
-### Certificates
+<b>Product Development & Software Engineer</b> | Developing self-driving system, software and hardware architecture for high performance autonomous vehicle applications and real-time computing systems that meet safety and performance goals
 
-Certified Motion Control Professional, [Motion Control and Motor Association](https://www.motioncontrolonline.org/meet-certified-motion-control-professionals.cfm) (2019)
-<br>[Self Driving Car Engineer, Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013#) at Udacity (June 2019, Expected)
+# Skills
 
-# Technical Skills
-3D Printing, Arduino, <b>C++</b>, Computer Vision, Deep Learning, <b>Embedded Systems</b>, Localization, <b>Machine Learning</b>, MATLAB, <b>Motion Control</b>, OpenCV, PID Control, Project Management, <b> Behavior & Path Planning</b>, Python, Rapid Prototyping, Sensor Fusion, SolidWorks (CAD), TensorFlow
+* Supporting the development of autonomous tools, motion planning and decision-making systems that prevent, detect, and diagnose problems in autonomous cars, ensuring the vehicles and the people in them are always safe
+*	Building software tools using C++ and Python to help diagnose vehicle health problems, conducting system configurations and data collection, then displaying that data for system operators in Linux and Unix environments
+*	Managing projects and the transfer of product designs to production environments, and ensuring that the organization develops high quality, market ready products, and delivers them in a timely and on-budget manner.
+*	Performing vehicle testing for Automated Driving and Advanced Driver Assistance Systems, as well as analyzing data, documenting results, quantifying and reporting outcomes to customer groups and various international sites
+*	Guiding cross-functional programs and facilitating conversations with vendors and suppliers that support core planning and control algorithms such as routing, behavior planning, trajectory planning, and feedback controllers
 
 # Experience
 
-### Self-Driving Car Engineer Nano-Degree, Udacity				      	       
-#### December 2018- Present
-* [Program and tune parameters for a PID controller](https://meredithmeyer.info/PID)
-* [Develop algorithms for behavior and path planning in highway driving](https://meredithmeyer.info/highway)
-* [Achieve localization of a car on a map from sensor fusion data](https://meredithmeyer.info/Locate)
-* [Execute an Extended Kalman Filter using C++ and Sensor Fusion](https://meredithmeyer.info/Kalman)
-* [Train a simulator to drive a car autonomously with a Keras Neural Network in Python](https://meredithmeyer.info/autonomous)
-* [Implement Computer Vision principles in Python to identify and track vehicle lane lines on real video](https://meredithmeyer.info/Lanes)
-* [Utilize Deep Learning techniques to categorize road signs in images using Python](https://meredithmeyer.info/Signs)
+### Moog Animatics, Mountain View, CA [August 2018 – Present]
+We are the pioneer and recognized leader of integrated motion controls. Since 1987, we’ve been designing and delivering smart motion control products as well as automation solutions for semiconductor, automotive and aerospace industries
+<b>Software Development & Applications Engineer</b>, I’m responsible for supporting the development, commissioning, and troubleshooting of our smart machines as well as identifying and communicating product improvement ideas and insights
 
-### Applications Engineer, Moog Animatics                                 
-#### August 2018- Present
-* Support customers daily in troubleshooting and product selection for embedded systems
-* Execute SmartMotor motion control applications through text-based programming
-* Train distributors bi-monthly on operation and features of SmartMotors using proprietary software
+*	Successfully programmed SmartMotor robotics and motion control software applications in AniBasic and Python, leading to delivery of high-performance motion controls in areas such as automotive test and simulation
+*	Provided technical leadership in troubleshooting industrial communication networks: CANopen, DeviceNet, Ethernet/IP as well as architecture design, hands-on verification, and benchmarking of deployed systems on site
+*	Conducted hands-on research and data analysis to select motors, drives, and actuators for autonomous systems based on requested parameters from multiple clients and applications with hardware and software components
+*	Efficiently built product demos to help our business development and sales team during technology exhibitions, and trained distributors bi-monthly on operation and features of SmartMotor products and proprietary software
+*	Coordinated software development programs by facilitating conversations with technology vendors, managing equipment and part suppliers, while working closely with the product development, sales and marketing teams
 
-### Project Manager, [Smart Exercise Bike (Capstone Project)](https://meredithmeyer.info/Workout)			      
-#### December 2017- May 2018
-* Selected appropriate hardware to fabricate a mechanical system
-* Created and programmed an encoder using Arduino
-* Designed and conducted tests to verify the electromechanical device
+### Udacity – Nanodegree Program [2018 – 2019]
+<b>Self-Driving Car Engineer</b>, I was responsible for applying computer vision and deep learning to automotive problems such as detecting lane lines and predicting steering angles, while studying sensor fusion, localization, planning and PID controls
+* Autonomous Highway Driving –	Utilized Sensor Fusion data to predict location of neighboring cars to 0.02 seconds 
+* Sensor Fusion Using Extended Kalman Filter (EKF) – Applied an EKF to data from Lidar and Radar sensors’ signals
+* Autonomous Vehicle Localization with Particle Filter – Localized car on map within 0.15m RMSE for over 1 minute 
+* Road Lane Finding – Successfully performed Camera Calibration using checkerboard images and OpenCV in Python 
 
-### Electromechanical Engineer, [“Voila” (Course Project)](https://meredithmeyer.info/Voila)			      	   
-#### October- December 2017
-* Utilized 3D printing and laser cutting to rapidly iterate prototypes
-* Tested and programmed sensors in Python & Arduino for a device to react to tactile inputs
-* Solved manufacturing problems to create a final polished device
+# Education
 
-### MATLAB Programmer, Human Movement and Balance Lab			 	              
-#### June 2015- May 2016
-* Conducted data processing analysis for NIH-funded study using MATLAB, Excel, and JMP
-* Assisted in completion of subject testing for research study using Vicon motion-capture system
-
-# Testimonials
-"[I]t is so awesome to have someone with [her] knowledge and capability there – especially with so many young people coming to the booth, [she] really should be proud to be an inspiration to that next generation.  [She is] super talented and [her] professionalism was perfect."<br>
-"I’m glad we have Meredith to catch these details."<br>
-"I think you should get some input from...Meredith (she seems pretty creative and has a good eye for detail)."<br>
-"Meredith did great and it's good to have a backup for on site support."<br>
-"...thanks for spotting and reporting that problem."
-
-# Community & Personal Development
-
-### Animal Rescue League, Dog jogger volunteer and foster parent	           		  
-#### April 2015 - July 2017
-### Senior Pet and Animal Rescue (SPAAR), Foster parent and fundraiser            	 
-#### May 2016– July 2017
-### Silicon Valley Animal Control Authority (SVACA), Volunteer						                                  
-#### October 2018- Present
-### Los Angeles Marathon			       						                                          
-#### March 18, 2018
-   * Self-trained for 4 months to run first 26.2-mile race 
-   * Finished in the top 5% of all women with a time of 3:52
-
-# Leadership
-
-### Kaplan Test Prep							    	                                         
-#### June 2017- December 2018
-* Instructed diverse classes to achieve higher scores on college and graduate admissions exams
-* Provided personalized advice and support in study techniques for individual students      
-
-### Personnel Chair, Chi Omega Fraternity
-#### November 2015- January 2017
-* Oversaw conduct, rules, and regulatory procedures within the Chapter
-* Coordinated activities and functions for personal and professional development
-
-# Honors and Awards
-
-### First Place: Bioengineering Design Project, Swanson School of Engineering (2017)
-### Tau Beta Pi: Top 10% of graduating class, Swanson School of Engineering (2015)
-### Second Place: Stilettos to Steel Toes Essay Contest, Schlumberger (2015)
-### University Honors Scholarship, University of Pittsburgh (2013)
-### Engineering Scholarship, Swanson School of Engineering (2013)
-
-
-
+* Certified Motion Control Professional, Motion Control & Motor Association (MCMA), 2019
+* Master of Engineering in Mechanical Engineering – Product Design, UC-Berkeley, 2018
+* Bachelor of Science in Bioengineering – Biomechanics, University of Pittsburgh, 2017
