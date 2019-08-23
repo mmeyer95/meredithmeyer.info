@@ -29,7 +29,7 @@ We are the pioneer and recognized leader of integrated motion controls. Since 19
 *	Efficiently built product demos to help our business development and sales team during technology exhibitions, and trained distributors bi-monthly on operation and features of SmartMotor products and proprietary software
 *	Coordinated software development programs by facilitating conversations with technology vendors, managing equipment and part suppliers, while working closely with the product development, sales and marketing teams
 
-### Udacity – Nanodegree Program [2018 – 2019]
+### [Udacity – Nanodegree Program [2018 – 2019]](https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd013-2.0.0-en-us.pdf) 
 <b>Self-Driving Car Engineer</b>, I was responsible for applying computer vision and deep learning to automotive problems such as detecting lane lines and predicting steering angles, while studying sensor fusion, localization, planning and PID controls
 * Autonomous Highway Driving –	Utilized Sensor Fusion data to predict location of neighboring cars to 0.02 seconds 
 * Sensor Fusion Using Extended Kalman Filter (EKF) – Applied an EKF to data from Lidar and Radar sensors’ signals
