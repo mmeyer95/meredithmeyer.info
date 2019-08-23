@@ -19,7 +19,7 @@ permalink: /resume/
 
 # Experience
 
-### Moog Animatics, Mountain View, CA [August 2018 – Present]
+### [Moog Animatics, Mountain View, CA [August 2018 – Present]](https://www.animatics.com/about-us/overview) 
 We are the pioneer and recognized leader of integrated motion controls. Since 1987, we’ve been designing and delivering smart motion control products as well as automation solutions for semiconductor, automotive and aerospace industries
 <b>Software Development & Applications Engineer</b>, I’m responsible for supporting the development, commissioning, and troubleshooting of our smart machines as well as identifying and communicating product improvement ideas and insights
 
