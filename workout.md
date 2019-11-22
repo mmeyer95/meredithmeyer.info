@@ -3,6 +3,8 @@ layout: page
 title: WorkOutimal - Smart Exercise Bike
 permalink: /Workout/
 ---
+### Skills: Automation, Arduino, Hardware, Sensing, Project Management
+##### I developed “WorkOutimal”, a stationary exercise bicycle that is able to guide the rider through an efficient workout.
 
 A play on the words "workout" and "optimal", WorkOutimal was my Capstone project in the M.Eng. program at UC Berkeley. The goal of the project was to create a cardio machine, in our case a bicycle, that is able to guide the user through an efficient workout. Efficient, for our purposes, means maximum calorie expenditure for a given time. This is possible because power output, which is the product of force and velocity, is a nonlinear function for a human.
 
