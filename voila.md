@@ -3,6 +3,9 @@ layout: page
 title: Voila - Interactive Health Device
 permalink: /Voila/
 ---
+### Skills: Java, Sensors, Arduino, Laser Cutting, CAD
+##### I worked on “Voila”, is an interactive device using tactile inputs which focuses on the collection and optimization of health choices.
+
 <center><img src="https://static.wixstatic.com/media/4d6d5c_0ec5225528464ba28b4389dfee60a8ae~mv2.jpg/v1/crop/x_14,y_0,w_497,h_497/fill/w_440,h_440,al_c,q_80,usm_0.66_1.00_0.01/4d6d5c_0ec5225528464ba28b4389dfee60a8ae~mv2.webp"></center>
 
 The motivation for this project path came from a shared group interest in personal health and happiness. As busy individuals with many smartphone apps and notifications, we all envisioned a way to make health tracking both simpler and more insightful.
