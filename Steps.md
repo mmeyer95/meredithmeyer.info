@@ -3,10 +3,10 @@ layout: page
 title: Step Counting and Orientation Determination of a Wrist-Worn Device
 permalink: /Steps/
 ---
-
-The goal of this project was to imitate basic functionality found in smartwatches. The 2 main objectives were to:
-* Accurately count number of steps
-* Determine when the device is raised for the purpose of displaying information
+***
+The goal of this project was to imitate basic functionality found in smartwatches. The main objectives were to:
+1. Accurately count number of steps
+2. Determine when the device is raised for the purpose of displaying information
 
 For this exercise, I chose to use an [Adafruit MMA8451 accelerometer breakout board](https://learn.adafruit.com/adafruit-mma8451-accelerometer-breakout):
 
@@ -21,7 +21,9 @@ I recorded sequences of walking for 10-15 seconds. The raw acceleromater data, a
 
 <center><img src="https://live.staticflickr.com/65535/49156247971_90caf8056f_n.jpg" width="320" height="228" alt="Raw_Accelerometer_Data"></center>
 
-Accelerometer data is inherently noisy, and in order to count steps, I need to ignore the noise. My walking sessions were at a normal, relaxed pace. According to the [New York Times](https://www.nytimes.com/2018/06/27/well/walk-health-exercise-steps.html), a brisk walk is 100 steps per minute: 100/60 ~= 1.66 Hz. Since walking, running etc. are quite low in frequency compared to noise and other signals, I chose to use a low-pass filter. I chose a cutoff frequency of 2.00 Hz to account for faster-than-brisk walking speeds. Since the wrist could theoretically be in any position while walking, I chose to use the vector sum of acceleration as my raw signal. Applying the filter yields:
+Accelerometer data is inherently noisy, and in order to count steps, I need to ignore the noise. My walking sessions were at a normal, relaxed pace. According to the [New York Times](https://www.nytimes.com/2018/06/27/well/walk-health-exercise-steps.html), a brisk walk is 100 steps per minute: 100/60 ~= 1.66 Hz. 
+
+Since walking, running etc. are quite low in frequency compared to noise and other signals, I chose to use a low-pass filter. I chose a cutoff frequency of 2.00 Hz to account for faster-than-brisk walking speeds. Since the wrist could theoretically be in any position while walking, I chose to use the vector sum of acceleration as my raw signal. Applying the filter yields:
 
 <center><img src="https://live.staticflickr.com/65535/49156597582_137c97c1d9_n.jpg" width="320" height="230" alt="LowPass_VectorSum2"></center>
 
@@ -29,7 +31,9 @@ As you can see, this creates a smooth curve, which looks like an ideally imagine
 
 <center><img src="https://live.staticflickr.com/65535/49156468782_50feedb19f_n.jpg" width="320" height="230" alt="Step_Counts"></center>
 
-The peak locations and count is what one might expect when looking at the signal with a human eye. It is also interesting to point out that the peak acceleration value alternates cyclically, in what would appear to be a difference between a step taken with the left foot (watch side) and a step taken with the right foot (opposite of watch side). The step count also matches what was counted during data collection.
+The peak locations and count is what one might expect when looking at the signal with a human eye. The step count also matches what was counted during data collection.
+
+It is also interesting to point out that the peak acceleration value alternates cyclically, in what would appear to be a difference between a step taken with the left foot (watch side) and a step taken with the right foot (opposite of watch side). 
 
 ### Step Counting with Altered Arm Position
 
@@ -47,7 +51,9 @@ Another feature I wanted to demonstrate was identification of intervals when the
 
 <center><img src="https://live.staticflickr.com/65535/49156410981_ea420b6e67_n.jpg" width="320" height="226" alt="RawData_PeriodicLift"></center>
 
-The states of resting and reading are most clearly shown in the X-axis data. This makes sense, as when the wrist is in the position to read from the position of a watch face, the x-axis of the accelerometer is parallel to the world z-axis. After again applying a low-pass filter, and defining the transition to an "on" state as the value of the x-axis acceleration approaching -9.8 m/s^2, I was able to categorize the state as expected. Shown below in red is the state, where 0 if "off"/"resting" and 1 is "on"/"reading".
+The states of resting and reading are most clearly shown in the X-axis data. This makes sense, as when the wrist is in the position to read from the position of a watch face, the x-axis of the accelerometer is parallel to the world z-axis. 
+
+After again applying a low-pass filter, and defining the transition to an "on" state as the value of the x-axis acceleration approaching -9.8 m/s^2, I was able to categorize the state as expected. Shown below in red is the state, where 0 if "off" / "resting" and 1 is "on" / "reading".
 
 <center><img src="https://live.staticflickr.com/65535/49156468797_c28aa85541_n.jpg" width="320" height="207" alt="Screen_Lit_State"></center>
 
