@@ -6,6 +6,33 @@ permalink: /
 ***
 Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the **details** links, visit my [GitHub profile](https://github.com/mmeyer95/), or [contact me directly](mailto:meredith_meyer@berkeley.edu).
 
+## Sensor Fusion Using Kalman Filters
+#### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR, Gaussian Distriutions, Matrices
+
+I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+   [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
+   
+## Localization Using a Partile Filter
+#### Skills: Localization, C++, GPS, LiDAR Sensor data, Multivariate Gaussian Distribution
+
+I was able to locate a "missing" vehicle using a particle filter and relative positional data of landmarks from RADAR on the vehicle.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/9hujlEV-CDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+[See the details](https://meredithmeyer.info/Locate) or visit [GitHub](https://github.com/mmeyer95/Kidnapped_Vehicle).
+
+## Step Counting and Orientation of Wrist-Worn Device
+#### Skills: Digital Signal Processing, Low-Pass Filtering, Analog Sensors, Accelerometer Data
+
+I was able to count walking steps via a sensor on the walker's wrist, and determine the orientation of the device.
+
+<center><img src="https://live.staticflickr.com/65535/49156468832_f59ab9b239_n.jpg" width="320" height="228" alt="Raw_Data_ArmBent"></center>
+
+[See the details](https://meredithmeyer.info/Steps) or visit [Github](https://github.com/mmeyer95/Smartwatch).
+
 ## Autonomous Driving Using a Neural Network
 #### Skills: Behavioral Cloning, Deep Learning, Transfer Learning, CNNs, C++, Keras
 
@@ -23,15 +50,6 @@ I programmed a car simulation to follow the road, change speeds, and switch lane
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/DQPjBo8q4xA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 [See the details](https://meredithmeyer.info/highway) or visit [GitHub](https://github.com/mmeyer95/Highway_Driving).
-
-## Localization Using a Partile Filter
-#### Skills: Localization, C++, GPS, LiDAR Sensor data, Multivariate Gaussian Distribution
-
-I was able to locate a "missing" vehicle using a particle filter and relative positional data of landmarks from RADAR on the vehicle.
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/9hujlEV-CDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-[See the details](https://meredithmeyer.info/Locate) or visit [GitHub](https://github.com/mmeyer95/Kidnapped_Vehicle).
 
 ## PID Controller
 #### Skills: PID Control, Tuning, Twiddle, C++
@@ -60,15 +78,6 @@ I classified street signs from individual images using a convolutional neural ne
 
    [See the details](https://meredithmeyer.info/Signs) or visit [GitHub](https://github.com/mmeyer95/Traffic-Sign-Classifier).
 
-## Sensor Fusion Using Kalman Filters
-#### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR, Gaussian Distriutions, Matrices
-
-I tracked and predicted the motion of a bicycle relative to a vehicle with simulated Lidar and Radar readings.
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/893XY_uEn8k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
-   [See the details](https://meredithmeyer.info/Kalman) or visit [GitHub](https://github.com/mmeyer95/KalmanFilters).
-   
 ## Motor Sizer
 #### Skills: C#, Visual Studio, Windows Forms Applications
 
