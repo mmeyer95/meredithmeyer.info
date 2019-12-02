@@ -6,6 +6,15 @@ permalink: /
 ***
 Below is a high-level overview of many of the projects I have worked on recently. For more information, follow the **details** links, visit my [GitHub profile](https://github.com/mmeyer95/), or [contact me directly](mailto:meredith_meyer@berkeley.edu).
 
+## Step Counting and Orientation of Wrist-Worn Device
+#### Skills: Digital Signal Processing, Low-Pass Filtering, Analog Sensors, Accelerometer Data
+
+I was able to count walking steps via a sensor on the walker's wrist, and determine the orientation of the device.
+
+<center><img src="https://live.staticflickr.com/65535/49156247971_90caf8056f_n.jpg" width="320" height="228" alt="Raw_Accelerometer_Data"></center>
+
+[See the details](https://meredithmeyer.info/Steps) or visit [Github](https://github.com/mmeyer95/Smartwatch).
+
 ## Sensor Fusion Using Kalman Filters
 #### Skills: Kalman Filters, Sensor Fusion, C++, RADAR, LiDAR, Gaussian Distriutions, Matrices
 
@@ -23,15 +32,6 @@ I was able to locate a "missing" vehicle using a particle filter and relative po
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9hujlEV-CDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 [See the details](https://meredithmeyer.info/Locate) or visit [GitHub](https://github.com/mmeyer95/Kidnapped_Vehicle).
-
-## Step Counting and Orientation of Wrist-Worn Device
-#### Skills: Digital Signal Processing, Low-Pass Filtering, Analog Sensors, Accelerometer Data
-
-I was able to count walking steps via a sensor on the walker's wrist, and determine the orientation of the device.
-
-<center><img src="https://live.staticflickr.com/65535/49156247971_90caf8056f_n.jpg" width="320" height="228" alt="Raw_Accelerometer_Data"></center>
-
-[See the details](https://meredithmeyer.info/Steps) or visit [Github](https://github.com/mmeyer95/Smartwatch).
 
 ## Autonomous Driving Using a Neural Network
 #### Skills: Behavioral Cloning, Deep Learning, Transfer Learning, CNNs, C++, Keras
