@@ -29,7 +29,7 @@ I was able to locate a "missing" vehicle using a particle filter and relative po
 
 I was able to count walking steps via a sensor on the walker's wrist, and determine the orientation of the device.
 
-<center><img src="https://live.staticflickr.com/65535/49156468832_f59ab9b239_n.jpg" width="320" height="228" alt="Raw_Data_ArmBent"></center>
+<center><img src="https://live.staticflickr.com/65535/49156247971_90caf8056f_n.jpg" width="320" height="228" alt="Raw_Accelerometer_Data"></center>
 
 [See the details](https://meredithmeyer.info/Steps) or visit [Github](https://github.com/mmeyer95/Smartwatch).
 
