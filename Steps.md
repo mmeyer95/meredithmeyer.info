@@ -10,7 +10,7 @@ The goal of this project was to imitate basic functionality found in smartwatche
 
 For this exercise, I chose to use an [Adafruit MMA8451 accelerometer breakout board](https://learn.adafruit.com/adafruit-mma8451-accelerometer-breakout):
 
-<center><img src="https://live.staticflickr.com/65535/49156247981_da3a5fcdda_n.jpg" width="320" height="179" alt="MMA8451"></script></center>
+<center><img src="https://live.staticflickr.com/65535/49156247981_da3a5fcdda_n.jpg" width="320" height="179" alt="MMA8451"></center>
 
 It is a 3-Axis, 14-bit accelerometer safe to use with either 3V or 5V logic. I used an Arduino UNO development board. In order to create a wristwatch-like setup, I affixed the sensor to a bracelet at the same position as a watch face.
 
