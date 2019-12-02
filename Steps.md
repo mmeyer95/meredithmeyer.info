@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Step Counting and Orientation of Wrist-Worn Device
+title: Step Counting and Orientation Determination of a Wrist-Worn Device
 permalink: /Steps/
 ---
 
