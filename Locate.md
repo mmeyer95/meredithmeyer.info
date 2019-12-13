@@ -4,7 +4,7 @@ title: Localization of a Car Using a Particle Filter
 permalink: /Locate
 ---
 
-The project involved implementation of Particle Filter equations in C++ code. Particle filters use a set of initially randomized particles that each represent a potential location (x,y) and heading direction (theta). Based on the likelihood that the particle represents the localized object's true location, it is given a weight (essentiall a probability). The probability that a particle represents the truth is determined by sensor data (usually LiDAR or RADAR) of the direction distances to nearby object. Knowledge of the map space is required.
+The project involved implementation of Particle Filter equations in C++ code. Particle filters use a set of initially randomized particles that each represent a potential location (x, y) and heading direction (theta). Based on the likelihood that the particle represents the localized object's true location, it is given a weight (essentially a probability). The probability that a particle represents the truth is determined by sensor data (usually LiDAR or RADAR) of the direction distances to nearby object. Knowledge of the map space is required.
 
 Implementation of a particle filter involves 4 basic steps:
 1. Initialization
@@ -20,7 +20,7 @@ Initialization is completed once, while steps 2-4 are computed cyclically, once 
 
 2. **Prediction**
 
-    The prediction step uses knowledge of the localized object's motion model in order to predict the next position. The motion model used for this project is of a constant yaw rate (AKA delta_theta) between time steps. In practice learning, a more simplified motion model was used, where heading direction is constant between time steps, like travelling only along spokes of a wheel. In a car, we are likely to have access to its current velocity (spedometer) and steering angle (internal mechanics). Therefore, this project is based on a motion model of constant velocity and delta theta (corresponding to steering angle) between time steps. The equations used to define new position and heading direction are:
+    The prediction step uses knowledge of the localized object's motion model in order to predict the next position. The motion model used for this project is of a constant yaw rate (delta_theta) between time steps. In practice learning, a more simplified motion model was used, where heading direction is constant between time steps, like traveling only along spokes of a wheel. In a car, we are likely to have access to its current velocity (speedometer) and steering angle (internal mechanics). Therefore, this project is based on a motion model of constant velocity and delta theta (corresponding to steering angle) between time steps. The equations used to define new position and heading direction are:
     
     <center><img src="https://live.staticflickr.com/65535/32713252657_e4923fb27f_b.jpg" width="869" height="354" alt="motion"></center>
     
@@ -33,7 +33,7 @@ Initialization is completed once, while steps 2-4 are computed cyclically, once 
     <center><img src="https://live.staticflickr.com/65535/46931923854_e688c58e5a_b.jpg" width="764" height="182" alt="Coordinate transform"></center>
     where subscript **c** corresponds to the **c**ar's sensor measurements, **p** to the **p**articles position, and **m** to the **m**ap coordinates. **Theta** is the angle of rotation between the particle's coordinate system and the map's coordinate system. Since the particle's heading direction is defined by the map's X axis, **theta** is the particle's heading direction.
     
-    After determining the location of "sensed" landmarks on the map, we have to determine which real landmark was sensed. I did this using the **nearest neighbor** technique. Essentially, whatever landmark is closest to the sensed observation becomes paired to that measurement. For this project, the sensor range was taken into account, and landmarks outside of a 50 meter range were not considered for association to a measurement.
+    After determining the location of "sensed" landmarks on the map, we have to determine which real landmark was sensed. I did this using the **nearest neighbor** technique. Essentially, whatever landmark is closest to the sensed observation becomes paired to that measurement. For this project, the sensor range was taken into account, and landmarks outside of a 50-meter range were not considered for association to a measurement.
     
     After associating each measurement with a landmark, there is enough information to update the particle weights. Remember, a particle's weight represents the probability of that particle representing the car's actual location. The weight is calculated as the product of multivariate Gaussians. The number of factors is equal to the number of landmarks sensed. The multivariate Gaussian distributions determine the probability that a measurement value for a landmark would actually be sensed based on its distance from the true landmark in 2D space. Visualization of a multivariate Gaussian is shown below, where the most likely location is in the center (i.e. the landmarks actual location), and the probability decreases radially.
     
@@ -55,7 +55,7 @@ For a simple particle filter with constant heading direction and low standard de
 <center><img src="https://live.staticflickr.com/65535/40689318473_f366e6837f.jpg" width="500" height="316" alt="1000world_10000parts_init_low_noise"><img src="https://live.staticflickr.com/65535/40689318423_cba2c41123.jpg" width="500" height="322" alt="1000world_10000parts_low_noise_1itr"></center>
 <center>(The blue "X" represents the car, red "*"s the particles, and green *^*s the landmarks)</center>
 
-If the standard deviation of measurements is high (representing a low precision sensor), a particle filter cannot do as good of a job with pinpointing location, but can still find the general area. After 5 iterations of the filter for high standard deviation, we get something like this:
+If the standard deviation of measurements is high (representing a low precision sensor), a particle filter cannot do as good of a job of pinpointing location, but can still find the general area. After 5 iterations of the filter for high standard deviation, we get something like this:
 
 <center><img src="https://live.staticflickr.com/65535/40689318123_034d0f76c7.jpg" width="500" height="326" alt="lots_of_noise_100"></center>
 
