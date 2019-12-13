@@ -16,7 +16,7 @@ For the project, our team decided to change a previously-existing stationary exe
 
 <center><img src="https://static.wixstatic.com/media/4d6d5c_471a1cb5dcd4447db211589501da7cda~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_600,h_800,al_c,q_85,usm_0.66_1.00_0.01/4d6d5c_471a1cb5dcd4447db211589501da7cda~mv2_d_3024_4032_s_4_2.webp"></center>
 
-As part of the hardware duo, my responsibility is to actually create a working product. We are using a 12 volt linear actuator (above) to manipulate the position of the magnet, and thus the resistance on the bike. I will be using an arduino to gauge the speed of pedalling and also to control the linear actuator. So, the first round of the product will be an add-on item to a stationary bicycle.
+As part of the hardware duo, my responsibility is to actually create a working product. We are using a 12-volt linear actuator (above) to manipulate the position of the magnet, and thus the resistance on the bike. I will be using an Arduino to gauge the speed of pedalling and also to control the linear actuator. So, the first round of the product will be an add-on item to a stationary bicycle.
 
 <center><img src="https://static.wixstatic.com/media/4d6d5c_83c2dd292d944751ba8556effb0363e0~mv2.jpg/v1/fill/w_920,h_710,al_c,q_85,usm_0.66_1.00_0.01/4d6d5c_83c2dd292d944751ba8556effb0363e0~mv2.webp"></center>
 
