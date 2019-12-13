@@ -26,7 +26,7 @@ The vectors found using `cv2.calibrateCamera` are subsequently used to undistort
 
     <center><img src="https://live.staticflickr.com/7865/46645486985_71e24c7a19.jpg" width="378" height="223" alt="binary threshold2"></center>
 
-    You can see that some other pixels, including what looks like a neighboring car, were identified. The next step only looks at a certain location of the image, so these fale-positive will not be a problem.
+    You can see that some other pixels, including what looks like a neighboring car, were identified. The next step only looks at a certain location of the image, so these false-positive will not be a problem.
 3. **Computing a perspective transform (to birds' eye view).** <br>
     The goal of the perspective transform is to map straight lines to a rectangle in an image. Through trial and error on a control image, which yielded the following transformation:
     <center><img src="https://live.staticflickr.com/7892/46837284414_53f6ebd159.jpg" width="378" height="223" alt="persp xform"><img src="https://live.staticflickr.com/7833/33684284668_5c05c6d0e9.jpg" width="378" height="223" alt="persp xform2"></center>
