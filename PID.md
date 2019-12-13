@@ -52,7 +52,7 @@ Once I had this starting point, I incorporating twiddle to optimize the paramete
                 * Decrease the increment amount & increment
                 
 
-Where all of these steps are looped for each parameter. Twiddle helps to hone in on the optimized value of each parameter. Through utilizing twiddle, resetting my starting values, and running twiddle again, I was able to optimize the K parameters. The final output was:
+Where all of these steps are looped for each parameter. Twiddle helps to home in on the optimized value of each parameter. Through utilizing twiddle, resetting my starting values, and running twiddle again, I was able to optimize the K parameters. The final output was:
 
 <center><table width="300">
   <tr>
@@ -69,7 +69,7 @@ Where all of these steps are looped for each parameter. Twiddle helps to hone in
   </tr>
 </table></center>
 
-and the car was able to drive around the track continuously without leaving the driveable portion of the track. Watch the video:
+and the car was able to drive around the track continuously without leaving the drivable portion of the track. Watch the video:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/kdVC-ikuMPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
